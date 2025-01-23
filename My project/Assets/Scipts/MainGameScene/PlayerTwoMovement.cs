@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 
 public class PlayerTwoMovement : MonoBehaviour
@@ -17,14 +19,16 @@ public class PlayerTwoMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Horizontal Axis value " + Input.GetAxis("Horizontal"));
-        Debug.Log("Axis value " + Input.GetAxis("Vertical"));
-        Debug.Log("Player rotation " + PlayerHand.transform.rotation.x + " " + PlayerHand.transform.rotation.y + " " + PlayerHand.transform.rotation.z);
+        float currentRotation;
+        if(PlayerHand.transform.localRotation.eulerAngles.y <= 180)
+            currentRotation = PlayerHand.transform.eulerAngles.y;
+        else
+            currentRotation = PlayerHand.transform.eulerAngles.y -360f;
 
         //movement
-        PlayerHand.transform.position = new Vector3(PlayerHand.transform.rotation.y * PlayerHand.transform.position.x+ Input.GetAxis("Vertical") * moveHorizontalSpeed,0,0);
+        PlayerHand.transform.position += PlayerHand.transform.right*Input.GetAxis("Vertical");
+        
         //tank control
         PlayerHand.transform.Rotate(PlayerHand.transform.rotation.x, Input.GetAxis("Horizontal")*turnSpeed, PlayerHand.transform.rotation.z);
-        Debug.Log("Corrected value " + (Input.GetAxis("Horizontal")*turnSpeed));
     }
 }

@@ -348,6 +348,7 @@
 -analyzer:"/home/ddk/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/ddk/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scipts/MainGameScene/PlayerTwoMovement.cs"
+"Assets/Scipts/MainGameScene/Shooting.cs"
 -langversion:9.0
 /deterministic
 /optimize+
