@@ -43,9 +43,7 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [
-              "Assets/Scenes/MainGamePlayScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -73,9 +71,7 @@
           },
           {
             "name": "SampleClip",
-            "scenes": [
-              "Assets/Scenes/MainGamePlayScene.unity"
-            ],
+            "scenes": [],
             "dependencyType": 1,
             "icon": null
           }
