@@ -43,7 +43,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -62,8 +64,18 @@
             "icon": null
           },
           {
+            "name": "AudioSource",
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           }
@@ -294,7 +306,9 @@
           },
           {
             "name": "RectTransform",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -358,7 +372,9 @@
           },
           {
             "name": "Sprite",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -418,10 +434,8 @@
           },
           {
             "name": "Transform",
-            "scenes": [
-              "Assets/Scenes/MainGamePlayScene.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -453,6 +467,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -550,10 +570,10 @@
         ]
       },
       {
-        "name": "Physics",
+        "name": "ParticleSystem",
         "dependencies": [
           {
-            "name": "BoxCollider",
+            "name": "ParticleSystem",
             "scenes": [
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -561,7 +581,20 @@
             "icon": null
           },
           {
-            "name": "CapsuleCollider",
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "Physics",
+        "dependencies": [
+          {
+            "name": "BoxCollider",
             "scenes": [
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -582,7 +615,9 @@
           },
           {
             "name": "Rigidbody",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           }
@@ -637,6 +672,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -768,7 +809,9 @@
         "dependencies": [
           {
             "name": "Canvas",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -780,7 +823,9 @@
           },
           {
             "name": "CanvasRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGamePlayScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
