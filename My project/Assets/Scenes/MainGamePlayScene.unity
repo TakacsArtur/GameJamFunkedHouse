@@ -1281,8 +1281,8 @@ Transform:
   m_GameObject: {fileID: 1607415183}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.085, y: 0.12, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: -1.085, y: 0.032, z: 0.004}
+  m_LocalScale: {x: 0.06594967, y: 0.04534648, z: 0.06987}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 352309535}
@@ -1333,7 +1333,7 @@ ParticleSystemRenderer:
   m_MeshDistribution: 0
   m_SortMode: 0
   m_MinParticleSize: 0
-  m_MaxParticleSize: 0.5
+  m_MaxParticleSize: 0.05
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
