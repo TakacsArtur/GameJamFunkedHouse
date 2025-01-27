@@ -13,10 +13,7 @@ public class Shooting : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
-        }
-       
-       
-    
+        }  
  }
 
     void Shoot()
@@ -34,7 +31,5 @@ public class Shooting : MonoBehaviour
             Destroy(impact, 2f );
         }
     }
-
-  
 }
 

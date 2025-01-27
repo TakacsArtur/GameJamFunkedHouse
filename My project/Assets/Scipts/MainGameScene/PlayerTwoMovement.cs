@@ -20,20 +20,12 @@ public class PlayerTwoMovement : MonoBehaviour
     {
         
         Rigidbody rb = PlayerHand.GetComponent<Rigidbody>();
-        //float currentRotation;
-        /*
-        if (PlayerHand.transform.localRotation.eulerAngles.y <= 180)
-            currentRotation = PlayerHand.transform.eulerAngles.y;
-        else
-            currentRotation = PlayerHand.transform.eulerAngles.y - 360f;
-        */
+    
         //movement
         rb.MovePosition(rb.position + PlayerHand.transform.right * Input.GetAxis("Vertical") * Time.deltaTime * moveHorizontalSpeed);
 
         //tank control
         rb.MoveRotation(rb.rotation * Quaternion.Euler(0, Input.GetAxis("Horizontal") * turnSpeed * Time.deltaTime, 0));
-        
-
-
+    
     }
 }

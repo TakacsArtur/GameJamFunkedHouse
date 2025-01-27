@@ -4,16 +4,31 @@ using UnityEngine;
 public class Shootable : MonoBehaviour
 {
      public bool smthOld, ninetiesOne;
-     public MissionsEnum missionsEnum;
+     private bool alreadyShot = false;
+     //walls and shit can have this toogled off
+     public bool validHit = true;
+     
+     private EventSystem.MissonNames currentMission;
      void Start(){
-        missionsEnum = new MissionsEnum();
+        EventSystem.singletonInstance.somethingOld += setSomethingOld;
      }
-     bool correctShot(MissionsEnum.MissonNames name){
 
-        switch (name){
-            case (MissionsEnum.MissonNames.SomethingOld):
+    void setSomethingOld(){
+        currentMission = EventSystem.MissonNames.SomethingOld;
+    }
+
+    public void gotShot(){
+        if (!alreadyShot && validHit){
+            EventSystem.singletonInstance.ValidHit(correctShot());
+        }
+    }
+     
+     bool correctShot(){
+
+        switch (currentMission){
+            case (EventSystem.MissonNames.SomethingOld):
                 return smthOld; 
-            case (MissionsEnum.MissonNames.SuchA90sKid):
+            case (EventSystem.MissonNames.SuchA90sKid):
                 return ninetiesOne;
             default: return false;
         }
