@@ -20,7 +20,7 @@ public class PlayerTwoMovement : MonoBehaviour
     {
         
         Rigidbody rb = PlayerHand.GetComponent<Rigidbody>();
-        float currentRotation;
+        //float currentRotation;
         /*
         if (PlayerHand.transform.localRotation.eulerAngles.y <= 180)
             currentRotation = PlayerHand.transform.eulerAngles.y;
