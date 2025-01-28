@@ -27,9 +27,7 @@ public class EventSystem : MonoBehaviour
          mainPlayerObject = GameObject.Find(playerObjectName);
 
          //for now there are no more requirements
-         SomethingOld();
-
-         
+         SomethingOld();         
     }
 
     public void missionStart(MissonNames ms){
@@ -78,8 +76,10 @@ public class EventSystem : MonoBehaviour
     }
     //todo real fail and win states
     private void End(bool positive){
-        if(positive)
+        if(positive){
             Debug.Log("Win");
+            SceneManager.LoadScene("EndScreen");
+        }
         else{
             Debug.Log("Lose");
             //this should make the player fall through the floor
@@ -90,15 +90,23 @@ public class EventSystem : MonoBehaviour
         }
     }
 
+
+
     IEnumerator delayedStart(){
         yield return new WaitForSeconds(6);
-        resetGame(MissonNames.SomethingOld);
+        LoadScene("EndScene");
 
     } 
 
-    public void resetGame(MissonNames mn){
+    IEnumerator delayedEnd(){
+        yield return new WaitForSeconds(6);
+        LoadScene("MainGamePlayScene");
+
+    } 
+
+    public void LoadScene(String name){
         //This wouldn't work in release
-        SceneManager.LoadScene("MainGamePlayScene");
+        SceneManager.LoadScene(name);
     }
 
 

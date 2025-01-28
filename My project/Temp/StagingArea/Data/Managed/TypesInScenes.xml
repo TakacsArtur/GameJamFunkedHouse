@@ -1,5 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="Ending" preserve="nothing"/>
 		<type fullname="EventSystem" preserve="nothing"/>
 		<type fullname="Light_Movement_Logog" preserve="nothing"/>
 		<type fullname="PlayerTwoMovement" preserve="nothing"/>

@@ -36,6 +36,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -51,6 +52,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -97,6 +99,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -118,6 +121,7 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -139,6 +143,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -154,6 +159,7 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -181,6 +187,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -190,6 +197,7 @@
           {
             "name": "Light",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -211,6 +219,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -226,6 +235,7 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -235,6 +245,7 @@
           {
             "name": "Mesh",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -244,6 +255,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -253,6 +265,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -262,6 +275,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -277,6 +291,7 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -286,6 +301,7 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -331,6 +347,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -340,6 +357,7 @@
           {
             "name": "RenderTexture",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity"
             ],
             "dependencyType": 0,
@@ -366,6 +384,7 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -447,6 +466,7 @@
           {
             "name": "Transform",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -611,6 +631,7 @@
           {
             "name": "BoxCollider",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],
@@ -632,6 +653,7 @@
           {
             "name": "Rigidbody",
             "scenes": [
+              "Assets/Scenes/EndScreen.unity",
               "Assets/Scenes/IntroScreen.unity",
               "Assets/Scenes/MainGamePlayScene.unity"
             ],

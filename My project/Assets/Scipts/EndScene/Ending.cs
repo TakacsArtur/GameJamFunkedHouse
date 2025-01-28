@@ -6,13 +6,6 @@ using UnityEngine.SceneManagement;
 public class Ending : MonoBehaviour
 {
     Rigidbody MovingLight;
-    void Update()
-    {
-       
-        if(Input.anyKey)
-            SceneManager.LoadScene("MainGamePlayScene");
-    }
-
     private IEnumerator LoadnextScene()
     {
         yield return new WaitForSeconds(20);

@@ -320,7 +320,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1605903596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d49284ab0a8fa44a8402bd38420d64a, type: 3}
+  m_Script: {fileID: 11500000, guid: af441e0ab2eb715d388770f9e72ddd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1866379613
@@ -334,7 +334,6 @@ GameObject:
   - component: {fileID: 1866379615}
   - component: {fileID: 1866379614}
   - component: {fileID: 1866379617}
-  - component: {fileID: 1866379618}
   m_Layer: 0
   m_Name: Spot Light_1
   m_TagString: Untagged
@@ -354,7 +353,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 5
+  m_Intensity: 3
   m_Range: 5432.9077
   m_SpotAngle: 59.20597
   m_InnerSpotAngle: 3.6
@@ -413,7 +412,7 @@ Transform:
   m_GameObject: {fileID: 1866379613}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 255, y: -1298, z: -296}
+  m_LocalPosition: {x: 255, y: 203, z: -296}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -446,18 +445,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1866379618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866379613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d49284ab0a8fa44a8402bd38420d64a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2099067823
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +505,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c71bbf2ce8383210bb770076a321f20c, type: 2}
+  - {fileID: 2100000, guid: 8b6843f382d38d694b3b22dfa96c3744, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
