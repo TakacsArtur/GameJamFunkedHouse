@@ -332,6 +332,8 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/home/ddk/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/ddk/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scipts/EndScene/Ending.cs"
+"Assets/Scipts/Logo_Screen/Light_Movement_Logog.cs"
 "Assets/Scipts/MainGameScene/EventSystem.cs"
 "Assets/Scipts/MainGameScene/PlayerTwoMovement.cs"
 "Assets/Scipts/MainGameScene/Shootable.cs"

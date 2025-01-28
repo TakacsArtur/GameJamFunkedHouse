@@ -12,6 +12,16 @@
 
 
 
+extern void Light_Movement_Logog_Start_mD31AEC709721D9B009A0ED07A34FD3F73A965ACC (void);
+extern void Light_Movement_Logog_Update_m4E2D60E88E34941E67EFA184DE8D8F54426435A6 (void);
+extern void Light_Movement_Logog_LoadnextScene_m9BA97A755EB381D3E5B31B786E38A8E0479546C8 (void);
+extern void Light_Movement_Logog__ctor_mC8898532DCB1F73E362C59F5145D72C6004ABDD2 (void);
+extern void U3CLoadnextSceneU3Ed__3__ctor_m64136F8B591E41146F124C21005C98BF67F7F8CE (void);
+extern void U3CLoadnextSceneU3Ed__3_System_IDisposable_Dispose_m81FF710FE7507C6C7C8574FACD841939AD1CBFE0 (void);
+extern void U3CLoadnextSceneU3Ed__3_MoveNext_m77ED69B312977EC404840640D35279CFB74BB7D4 (void);
+extern void U3CLoadnextSceneU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m199F73F8E7B91243C3314BF55FF524E9F4D59AD1 (void);
+extern void U3CLoadnextSceneU3Ed__3_System_Collections_IEnumerator_Reset_m1D5BFDACB9A6467F1A1E67B9AAC7020C7BA6E520 (void);
+extern void U3CLoadnextSceneU3Ed__3_System_Collections_IEnumerator_get_Current_m8559B2BD58499B437BF3D69EDF39D202A0A9A57F (void);
 extern void EventSystem_Awake_m1BC3A9C7D594B262DB24AAE2A53A2E1F20F46F0B (void);
 extern void EventSystem_Start_m770A59C46BAA15DF63E78735AD098DAD4525EA7F (void);
 extern void EventSystem_missionStart_mE57A048F07AB056A760387ED7A0A3493AAE71D5C (void);
@@ -21,8 +31,16 @@ extern void EventSystem_SomethingOld_m6BA68D16C99F73354DC4524C57A3C4BDB6F431E9 (
 extern void EventSystem_SomethingGotShot_m9445ADA5BF9BFCE2FEF176B76EC4393D802FB28B (void);
 extern void EventSystem_ValidHit_mDF53AB9C4D48E90B47A1861EFA882A63622E89B2 (void);
 extern void EventSystem_End_m777CAF89398E580847E27836B8CF12874DDDA95D (void);
+extern void EventSystem_delayedStart_m73EAE3007066718BD3060F6917B4AA304EC406E2 (void);
+extern void EventSystem_resetGame_m6E926446C600118DC68AD6F41D9718BE24E19C99 (void);
 extern void EventSystem_CluesList_m98D946E5C15A1174787ABF711445C2720E0AD598 (void);
 extern void EventSystem__ctor_m3BC2B0E8A021F139C276667CF82D1A3AD3150F31 (void);
+extern void U3CdelayedStartU3Ed__15__ctor_m10094D8A21EF31500E7E453411D16AD3EDD19166 (void);
+extern void U3CdelayedStartU3Ed__15_System_IDisposable_Dispose_mAA34BB7FFDB5F9FC214C623988DABC3B2C620AE0 (void);
+extern void U3CdelayedStartU3Ed__15_MoveNext_m39FCD35C65188A2C889BE075ED300019B594B13C (void);
+extern void U3CdelayedStartU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6B0C5E1EBE99375243D3DC8C6A7EEF7034C01F71 (void);
+extern void U3CdelayedStartU3Ed__15_System_Collections_IEnumerator_Reset_mF77F3B2A3F5871546604D56BD68E4115502AF29B (void);
+extern void U3CdelayedStartU3Ed__15_System_Collections_IEnumerator_get_Current_m94B447F5E3E4B8A21D36C3768D3FBD9E65908E37 (void);
 extern void PlayerTwoMovement_Start_m3936DFE34D519CF9902D6E5EAE69CCB7F15FBCFB (void);
 extern void PlayerTwoMovement_Update_mF8C285EADD63F40DE9E952522D4857725865E4FD (void);
 extern void PlayerTwoMovement__ctor_m531A6599C35493B2A4AE9656512B4FB925080374 (void);
@@ -36,8 +54,18 @@ extern void Shooting_Shoot_m154825F14970981A954472AAF3B326925E383B92 (void);
 extern void Shooting__ctor_m1AE04BBB32648A611A2089EF25691E0DDCAD89C2 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[24] = 
+static Il2CppMethodPointer s_methodPointers[42] = 
 {
+	Light_Movement_Logog_Start_mD31AEC709721D9B009A0ED07A34FD3F73A965ACC,
+	Light_Movement_Logog_Update_m4E2D60E88E34941E67EFA184DE8D8F54426435A6,
+	Light_Movement_Logog_LoadnextScene_m9BA97A755EB381D3E5B31B786E38A8E0479546C8,
+	Light_Movement_Logog__ctor_mC8898532DCB1F73E362C59F5145D72C6004ABDD2,
+	U3CLoadnextSceneU3Ed__3__ctor_m64136F8B591E41146F124C21005C98BF67F7F8CE,
+	U3CLoadnextSceneU3Ed__3_System_IDisposable_Dispose_m81FF710FE7507C6C7C8574FACD841939AD1CBFE0,
+	U3CLoadnextSceneU3Ed__3_MoveNext_m77ED69B312977EC404840640D35279CFB74BB7D4,
+	U3CLoadnextSceneU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m199F73F8E7B91243C3314BF55FF524E9F4D59AD1,
+	U3CLoadnextSceneU3Ed__3_System_Collections_IEnumerator_Reset_m1D5BFDACB9A6467F1A1E67B9AAC7020C7BA6E520,
+	U3CLoadnextSceneU3Ed__3_System_Collections_IEnumerator_get_Current_m8559B2BD58499B437BF3D69EDF39D202A0A9A57F,
 	EventSystem_Awake_m1BC3A9C7D594B262DB24AAE2A53A2E1F20F46F0B,
 	EventSystem_Start_m770A59C46BAA15DF63E78735AD098DAD4525EA7F,
 	EventSystem_missionStart_mE57A048F07AB056A760387ED7A0A3493AAE71D5C,
@@ -47,8 +75,16 @@ static Il2CppMethodPointer s_methodPointers[24] =
 	EventSystem_SomethingGotShot_m9445ADA5BF9BFCE2FEF176B76EC4393D802FB28B,
 	EventSystem_ValidHit_mDF53AB9C4D48E90B47A1861EFA882A63622E89B2,
 	EventSystem_End_m777CAF89398E580847E27836B8CF12874DDDA95D,
+	EventSystem_delayedStart_m73EAE3007066718BD3060F6917B4AA304EC406E2,
+	EventSystem_resetGame_m6E926446C600118DC68AD6F41D9718BE24E19C99,
 	EventSystem_CluesList_m98D946E5C15A1174787ABF711445C2720E0AD598,
 	EventSystem__ctor_m3BC2B0E8A021F139C276667CF82D1A3AD3150F31,
+	U3CdelayedStartU3Ed__15__ctor_m10094D8A21EF31500E7E453411D16AD3EDD19166,
+	U3CdelayedStartU3Ed__15_System_IDisposable_Dispose_mAA34BB7FFDB5F9FC214C623988DABC3B2C620AE0,
+	U3CdelayedStartU3Ed__15_MoveNext_m39FCD35C65188A2C889BE075ED300019B594B13C,
+	U3CdelayedStartU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6B0C5E1EBE99375243D3DC8C6A7EEF7034C01F71,
+	U3CdelayedStartU3Ed__15_System_Collections_IEnumerator_Reset_mF77F3B2A3F5871546604D56BD68E4115502AF29B,
+	U3CdelayedStartU3Ed__15_System_Collections_IEnumerator_get_Current_m94B447F5E3E4B8A21D36C3768D3FBD9E65908E37,
 	PlayerTwoMovement_Start_m3936DFE34D519CF9902D6E5EAE69CCB7F15FBCFB,
 	PlayerTwoMovement_Update_mF8C285EADD63F40DE9E952522D4857725865E4FD,
 	PlayerTwoMovement__ctor_m531A6599C35493B2A4AE9656512B4FB925080374,
@@ -63,38 +99,56 @@ static Il2CppMethodPointer s_methodPointers[24] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[24] = 
+static const int32_t s_InvokerIndices[42] = 
 {
-	4206,
-	4206,
-	3376,
-	3400,
-	3400,
-	4206,
-	3400,
-	3331,
-	3331,
-	2997,
-	4206,
-	4206,
-	4206,
-	4206,
-	4206,
-	4206,
-	4206,
-	4048,
-	4206,
-	4206,
-	4206,
-	4206,
-	6110,
-	4206,
+	4207,
+	4207,
+	4120,
+	4207,
+	3377,
+	4207,
+	4049,
+	4120,
+	4207,
+	4120,
+	4207,
+	4207,
+	3377,
+	3401,
+	3401,
+	4207,
+	3401,
+	3332,
+	3332,
+	4120,
+	3377,
+	2998,
+	4207,
+	3377,
+	4207,
+	4049,
+	4120,
+	4207,
+	4120,
+	4207,
+	4207,
+	4207,
+	4207,
+	4207,
+	4207,
+	4049,
+	4207,
+	4207,
+	4207,
+	4207,
+	6115,
+	4207,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	24,
+	42,
 	s_methodPointers,
 	0,
 	NULL,

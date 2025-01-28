@@ -31,6 +31,7 @@ UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::OpenURL
 UnityEngine.Application::get_platform
+UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.AudioSource::PlayHelper
 UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::get_isActiveAndEnabled
@@ -475,6 +476,9 @@ UnityEngine.Rigidbody::MoveRotation_Injected
 UnityEngine.Rigidbody::get_position_Injected
 UnityEngine.Rigidbody::get_rotation_Injected
 UnityEngine.Rigidbody::set_useGravity
+UnityEngine.SceneManagement.SceneManager::get_sceneCount
+UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
+UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width

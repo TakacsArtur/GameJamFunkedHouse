@@ -2,6 +2,7 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EventSystem : MonoBehaviour
 {
@@ -85,7 +86,19 @@ public class EventSystem : MonoBehaviour
             mainPlayerObject.GetComponent<Rigidbody>().useGravity = true;
             mainPlayerObject.GetComponent<BoxCollider>().isTrigger = true;
             mainPlayerObject.GetComponent<Rigidbody>().AddForce(0,0,-5000000, ForceMode.Impulse);
+            StartCoroutine(delayedStart());
         }
+    }
+
+    IEnumerator delayedStart(){
+        yield return new WaitForSeconds(6);
+        resetGame(MissonNames.SomethingOld);
+
+    } 
+
+    public void resetGame(MissonNames mn){
+        //This wouldn't work in release
+        SceneManager.LoadScene("MainGamePlayScene");
     }
 
 

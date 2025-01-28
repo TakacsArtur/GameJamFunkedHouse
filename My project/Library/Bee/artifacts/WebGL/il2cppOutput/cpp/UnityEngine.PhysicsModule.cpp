@@ -3053,6 +3053,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_AddForce_m264F2851A456AA18D4F0
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_AddForce_mFD97FC9DA828C1952D46D28C50B1D994B19895F6 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		float L_1 = ___1_y;
+		float L_2 = ___2_z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), L_0, L_1, L_2, NULL);
+		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(__this, L_3, 0, NULL);
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody__ctor_mB4E21922228AED3B52D8696D54F5B514F922CB07 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, const RuntimeMethod* method) 
 {
 	{

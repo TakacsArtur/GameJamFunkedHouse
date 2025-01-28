@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - EventSystem
+    - Light_Movement_Logog
     - PlayerTwoMovement
     - Shootable
     - Shooting
@@ -17,6 +18,51 @@ ScriptsOnlyBuild:
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
+    Assets/Scenes/IntroScreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2572}
+    - Class: 114
+      Script: {instanceID: 6016}
+    - Class: 114
+      Script: {instanceID: 24500}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Scenes/MainGamePlayScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -919,7 +965,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dc99967ecf95addc0b3a1c62b6531830
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Light_Movement_Logog
   platform: 20
   scenePathNames:
+  - Assets/Scenes/IntroScreen.unity
   - Assets/Scenes/MainGamePlayScene.unity
   playerPath: /home/ddk/Downloads/temp/Github

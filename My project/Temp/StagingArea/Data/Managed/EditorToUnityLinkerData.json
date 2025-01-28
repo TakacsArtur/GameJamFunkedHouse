@@ -21,6 +21,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -30,6 +31,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -46,6 +48,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -55,6 +58,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -71,6 +75,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -129,6 +134,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -180,6 +186,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -189,6 +196,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -207,6 +215,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -216,6 +225,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -225,6 +235,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -234,6 +245,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -243,6 +255,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -252,6 +265,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -261,6 +275,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -270,6 +285,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -279,6 +295,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -288,6 +305,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -297,6 +315,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -306,6 +325,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -315,6 +335,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -324,6 +345,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -333,6 +355,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -367,6 +390,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -383,7 +407,17 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RenderTexture",
+            "fullManagedTypeName": "UnityEngine.RenderTexture",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity"
             ]
         },
         {
@@ -392,6 +426,7 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -401,6 +436,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -417,6 +453,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -426,6 +463,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -435,6 +473,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         },
@@ -444,6 +483,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/IntroScreen.unity",
                 "Assets/Scenes/MainGamePlayScene.unity"
             ]
         }
