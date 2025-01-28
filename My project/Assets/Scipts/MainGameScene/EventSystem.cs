@@ -14,14 +14,21 @@ public class EventSystem : MonoBehaviour
     }
 
     private int missionSuccessItemCnt =0;
+    private GameObject mainPlayerObject;
+
+    public string playerObjectName;
 
     private void Awake(){
         singletonInstance = this;
     }
     //Todo set start text
     void Start(){
+         mainPlayerObject = GameObject.Find(playerObjectName);
+
          //for now there are no more requirements
          SomethingOld();
+
+         
     }
 
     public void missionStart(MissonNames ms){
@@ -38,6 +45,7 @@ public class EventSystem : MonoBehaviour
             somethingOld();
             missionStart(MissonNames.SomethingOld);
         Debug.Log("Something old started");
+        Debug.Log("HitCnt " + missionSuccessItemCnt);
         }   
     }
 
@@ -50,23 +58,33 @@ public class EventSystem : MonoBehaviour
 
     public void ValidHit(bool itIsGood){
         //Todo death screen
+        Debug.Log("According to the item, the hit was " + itIsGood);
         if(itIsGood){
-            missionSuccessItemCnt --;
+            
+            missionSuccessItemCnt-=1;
             Debug.Log("Good hit");
+            
             if(missionSuccessItemCnt<=0){
                 End(true);
             }
-        else
+        }
+        if(!itIsGood)
+        {
             End(false);
             Debug.Log("Tough luck");
         }
+        
     }
     //todo real fail and win states
     private void End(bool positive){
         if(positive)
             Debug.Log("Win");
-        else
+        else{
             Debug.Log("Lose");
+            //this should make the player fall through the floor
+            mainPlayerObject.GetComponent<Rigidbody>().useGravity = true;
+            mainPlayerObject.GetComponent<BoxCollider>().isTrigger = true;
+        }
     }
 
 

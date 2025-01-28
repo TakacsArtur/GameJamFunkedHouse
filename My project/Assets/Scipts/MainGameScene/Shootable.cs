@@ -19,7 +19,9 @@ public class Shootable : MonoBehaviour
 
     public void gotShot(){
         if (!alreadyShot && validHit){
+            Debug.Log("Valid hit on me");
             EventSystem.singletonInstance.ValidHit(correctShot());
+            alreadyShot = true;
         }
     }
      

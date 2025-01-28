@@ -29,6 +29,8 @@ public class Shooting : MonoBehaviour
             Debug.Log(hitItem.name);
             GameObject impact =  Instantiate(impactEff, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impact, 2f );
+            //the shot was fired
+            EventSystem.singletonInstance.SomethingGotShot(hitItem);
         }
     }
 }

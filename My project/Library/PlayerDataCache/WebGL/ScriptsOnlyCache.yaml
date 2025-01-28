@@ -1,8 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - MouseRestrict
+    - EventSystem
     - PlayerTwoMovement
+    - Shootable
     - Shooting
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -13,14 +14,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
-  serializedClasses:
-    UnityEngine.CoreModule:
-    - UnityEngine.Events.PersistentCallGroup
-    UnityEngine.UI:
-    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+  serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/MainGamePlayScene.unity:
@@ -57,21 +51,17 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1510}
-    - Class: 114
-      Script: {instanceID: 1576}
-    - Class: 114
-      Script: {instanceID: 2418}
+      Script: {instanceID: 1550}
     - Class: 114
       Script: {instanceID: 2572}
     - Class: 114
-      Script: {instanceID: 2776}
-    - Class: 114
       Script: {instanceID: 3734}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 4588}
     - Class: 114
-      Script: {instanceID: 6014}
+      Script: {instanceID: 6016}
+    - Class: 114
+      Script: {instanceID: 6286}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -82,27 +72,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 5d7321f085424dcd5e3d0e813251f82d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerTwoMovement
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5d7321f085424dcd5e3d0e813251f82d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerTwoMovement
   - hash:
       serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
@@ -193,12 +175,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
-  - hash:
-      serializedVersion: 2
-      Hash: 9a5f7e9b0c835e9524c07c2244b59ab2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MouseRestrict
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -519,6 +495,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: abeadb376fca32bc1a03e39585d98ea5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Shootable
+  - hash:
+      serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -729,6 +711,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 2ba75c53c761e1da9cc8e88029edd652
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
       Hash: f669be52680c88846b2093fd41d1e06e
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -934,4 +922,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/MainGamePlayScene.unity
-  playerPath: /home/ddk/Downloads/anyad/The.Night.Agent.S01.COMPLETE.720p.NF.WEBRip.x264-GalaxyTV[TGx]
+  playerPath: /home/ddk/Downloads/temp/Github
