@@ -53,11 +53,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2188}
     - Class: 114
-      Script: {instanceID: 6016}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 26166}
+      Script: {instanceID: 6020}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -98,11 +98,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 6016}
+      Script: {instanceID: 4126}
     - Class: 114
-      Script: {instanceID: 24500}
+      Script: {instanceID: 6020}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -136,6 +136,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -145,15 +147,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1550}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 3734}
+      Script: {instanceID: 3736}
     - Class: 114
-      Script: {instanceID: 4588}
+      Script: {instanceID: 4592}
     - Class: 114
-      Script: {instanceID: 6016}
+      Script: {instanceID: 6020}
     - Class: 114
-      Script: {instanceID: 6286}
+      Script: {instanceID: 6290}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -249,6 +251,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 65bb5e5fdbc39691c61f1094c2803d22
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Ending
   - hash:
       serializedVersion: 2
       Hash: 7e93247d600e115dac0cdd880de94e99
@@ -455,7 +463,7 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9a186db5032ac854f4bb710b479113c7
+      Hash: 960935b102b3064f4b924de16426e340
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshPro
@@ -561,6 +569,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: dc99967ecf95addc0b3a1c62b6531830
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Light_Movement_Logog
   - hash:
       serializedVersion: 2
       Hash: e7e95903ca66d58e1a7cbd71f824e16d
@@ -1011,21 +1025,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: dc99967ecf95addc0b3a1c62b6531830
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Light_Movement_Logog
-  - hash:
-      serializedVersion: 2
-      Hash: 65bb5e5fdbc39691c61f1094c2803d22
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Ending
   platform: 20
   scenePathNames:
   - Assets/Scenes/IntroScreen.unity
   - Assets/Scenes/MainGamePlayScene.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: /home/ddk/Downloads/temp/Github
+  playerPath: D:/gamjam/build/build2
