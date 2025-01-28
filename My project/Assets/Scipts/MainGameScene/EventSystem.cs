@@ -84,6 +84,7 @@ public class EventSystem : MonoBehaviour
             //this should make the player fall through the floor
             mainPlayerObject.GetComponent<Rigidbody>().useGravity = true;
             mainPlayerObject.GetComponent<BoxCollider>().isTrigger = true;
+            mainPlayerObject.GetComponent<Rigidbody>().AddForce(0,0,-5000000, ForceMode.Impulse);
         }
     }
 

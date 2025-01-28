@@ -469,6 +469,7 @@ UnityEngine.RenderTexture::GetTemporary_Internal_Injected
 UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindShaderByName
+UnityEngine.Rigidbody::AddForce_Injected
 UnityEngine.Rigidbody::MovePosition_Injected
 UnityEngine.Rigidbody::MoveRotation_Injected
 UnityEngine.Rigidbody::get_position_Injected

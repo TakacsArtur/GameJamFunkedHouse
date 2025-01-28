@@ -2182,6 +2182,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Rigidbody
 
+		//System.Void UnityEngine.Rigidbody::AddForce_Injected(UnityEngine.Vector3&,UnityEngine.ForceMode)
+		void Register_UnityEngine_Rigidbody_AddForce_Injected();
+		Register_UnityEngine_Rigidbody_AddForce_Injected();
+
 		//System.Void UnityEngine.Rigidbody::MovePosition_Injected(UnityEngine.Vector3&)
 		void Register_UnityEngine_Rigidbody_MovePosition_Injected();
 		Register_UnityEngine_Rigidbody_MovePosition_Injected();
