@@ -3,6 +3,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using Unity.VisualScripting;
+using UnityEngine.UI;
+using System.Threading;
 
 public class EventSystem : MonoBehaviour
 {
@@ -11,13 +15,19 @@ public class EventSystem : MonoBehaviour
 
   public enum MissonNames{
         SomethingOld, 
-        SuchA90sKid
+        SuchA90sKid,
     }
 
     private int missionSuccessItemCnt =0;
+    private readonly List<string> startText = new List<string> {"Player one you are the body" , "Player two you are the weapon", "Find objects:"};
+            
     private GameObject mainPlayerObject;
 
+    public string canvasName;
+
     public string playerObjectName;
+
+    public TextMeshProUGUI mainTMP;
 
     private void Awake(){
         singletonInstance = this;
@@ -25,9 +35,18 @@ public class EventSystem : MonoBehaviour
     //Todo set start text
     void Start(){
          mainPlayerObject = GameObject.Find(playerObjectName);
-
+        
          //for now there are no more requirements
-         SomethingOld();         
+         SomethingOld();        
+
+         mainTMP = GameObject.Find(canvasName).GetComponent<TextMeshProUGUI>(); 
+
+         var temp = CluesList(MissonNames.SomethingOld);   
+         startText.AddRange(temp);
+
+         StartCoroutine(delayedText(mainTMP, startText));
+
+
     }
 
     public void missionStart(MissonNames ms){
@@ -74,11 +93,10 @@ public class EventSystem : MonoBehaviour
         }
         
     }
-    //todo real fail and win states
     private void End(bool positive){
         if(positive){
             Debug.Log("Win");
-            SceneManager.LoadScene("EndScreen");
+            delayedStart();
         }
         else{
             Debug.Log("Lose");
@@ -86,15 +104,22 @@ public class EventSystem : MonoBehaviour
             mainPlayerObject.GetComponent<Rigidbody>().useGravity = true;
             mainPlayerObject.GetComponent<BoxCollider>().isTrigger = true;
             mainPlayerObject.GetComponent<Rigidbody>().AddForce(0,0,-5000000, ForceMode.Impulse);
-            StartCoroutine(delayedStart());
+            StartCoroutine(delayedEnd());
         }
     }
 
-
+    IEnumerator delayedText(TextMeshProUGUI tmp, List<String> text){
+        foreach (var t in text){
+            yield return new WaitForSeconds(7);
+            tmp.text = t;
+            Debug.Log("Wrote text to screen");        
+        }
+        
+    }
 
     IEnumerator delayedStart(){
         yield return new WaitForSeconds(6);
-        LoadScene("EndScene");
+        LoadScene("EndScreen");
 
     } 
 

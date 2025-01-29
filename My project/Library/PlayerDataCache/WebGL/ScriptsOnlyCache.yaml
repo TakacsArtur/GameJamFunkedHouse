@@ -136,8 +136,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -463,7 +461,7 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 960935b102b3064f4b924de16426e340
+      Hash: 9a186db5032ac854f4bb710b479113c7
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshPro
@@ -1030,4 +1028,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/IntroScreen.unity
   - Assets/Scenes/MainGamePlayScene.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: D:/gamjam/build/build2
+  playerPath: /home/ddk/Downloads/anyad/GameJamFunkedHouse
