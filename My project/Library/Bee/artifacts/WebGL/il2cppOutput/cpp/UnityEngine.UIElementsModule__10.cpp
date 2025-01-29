@@ -927,6 +927,7 @@ IL2CPP_EXTERN_C RuntimeClass* UIElementsRuntimeUtilityNative_t7BF21E9B58D15C2BA6
 IL2CPP_EXTERN_C RuntimeClass* UIElementsRuntimeUtility_t40591BFE969CBBBB42A0B326B4DDE04637D7279F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UIElementsUtility_t03323144D50362C6BF96652D3355728749769293_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UIEventRegistration_tAA631D040C6CE46FC9C0542976AAEEE5CE9CDE7A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UIRenderDevice_t59628CBA89B4617E832C2B270E1C1A3931D01302_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UITKTextHandle_t1FF3B4EC2367C05F42D61C660D6FE30DF91C06CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UQueryExtensions_t1271382882DF1B8FEEDE5EFA510405ABA7BD3426_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UQueryState_1_t9A60C9E48C10156AE4F8BF8D5C4657061CEF02BA_il2cpp_TypeInfo_var;
@@ -7646,6 +7647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF53898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UIElementsRuntimeUtility_set_activeEventSystem_mEE534A4FF2B513B4D05D4414118D763D1F1CF5BC_inline (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultEventSystem__ctor_mE1A8628F25A1C8885B49D80698414BB308757629 (DefaultEventSystem_t264BDF66772AC091E74E08415FB9C70FAE619F98* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtility_RemoveUnusedPanels_m75A6038F98CDBBBAAFAE18D2D4B376A88418DA06 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIRenderDevice_ProcessDeviceFreeQueue_mAE86D31E256DEB4C438ECCD949C61FD305700A21 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UIElementsRuntimeUtility_get_useDefaultEventSystem_mCDE09EA673DCD2ECDED478A7D65F6B583F09F84E (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DefaultEventSystem_t264BDF66772AC091E74E08415FB9C70FAE619F98* UIElementsRuntimeUtility_get_defaultEventSystem_m8AA4FFF31E9EECFC5BE284D46498A2D952B83E0B (const RuntimeMethod* method) ;
@@ -15793,6 +15795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtility_UpdateRuntimePa
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mA403B61665EA48A93CA41F99B3951C9E8B668655_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m0A49BD1D755F744764446BA2BDB86487C93219CF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIElementsRuntimeUtility_t40591BFE969CBBBB42A0B326B4DDE04637D7279F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRenderDevice_t59628CBA89B4617E832C2B270E1C1A3931D01302_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Enumerator_t0D7BFF7BA0DCFB8FBD71A70BC578DD4E0645952A V_0;
@@ -15803,6 +15806,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtility_UpdateRuntimePa
 	{
 		il2cpp_codegen_runtime_class_init_inline(UIElementsRuntimeUtility_t40591BFE969CBBBB42A0B326B4DDE04637D7279F_il2cpp_TypeInfo_var);
 		UIElementsRuntimeUtility_RemoveUnusedPanels_m75A6038F98CDBBBAAFAE18D2D4B376A88418DA06(NULL);
+		il2cpp_codegen_runtime_class_init_inline(UIRenderDevice_t59628CBA89B4617E832C2B270E1C1A3931D01302_il2cpp_TypeInfo_var);
+		UIRenderDevice_ProcessDeviceFreeQueue_mAE86D31E256DEB4C438ECCD949C61FD305700A21(NULL);
 		List_1_t9FF902E193613BD654FD1CF8DBDEF7B872504919* L_0;
 		L_0 = UIElementsRuntimeUtility_GetSortedPlayerPanels_m8D486E3150FBE718BB735B3680732AB3F7EDEF76(NULL);
 		Enumerator_t0D7BFF7BA0DCFB8FBD71A70BC578DD4E0645952A L_1;
@@ -15813,7 +15818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtility_UpdateRuntimePa
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0036:
+FINALLY_003c:
 			{
 				Enumerator_Dispose_m5F522A170F8E78225109622835A1ED8F1A94B243((&V_0), Enumerator_Dispose_m5F522A170F8E78225109622835A1ED8F1A94B243_RuntimeMethod_var);
 				return;
@@ -15822,10 +15827,10 @@ FINALLY_0036:
 		try
 		{
 			{
-				goto IL_002b_1;
+				goto IL_0031_1;
 			}
 
-IL_0015_1:
+IL_001b_1:
 			{
 				Panel_t2B0DCF68A7A5EBC347FAE66F046EA98B53AF1AB9* L_2;
 				L_2 = Enumerator_get_Current_mA403B61665EA48A93CA41F99B3951C9E8B668655_inline((&V_0), Enumerator_get_Current_mA403B61665EA48A93CA41F99B3951C9E8B668655_RuntimeMethod_var);
@@ -15834,17 +15839,17 @@ IL_0015_1:
 				VirtualActionInvoker0::Invoke(53, L_3);
 			}
 
-IL_002b_1:
+IL_0031_1:
 			{
 				bool L_4;
 				L_4 = Enumerator_MoveNext_mBA36AD146491CAAF512A40D7F3009F3F501B3A19((&V_0), Enumerator_MoveNext_mBA36AD146491CAAF512A40D7F3009F3F501B3A19_RuntimeMethod_var);
 				if (L_4)
 				{
-					goto IL_0015_1;
+					goto IL_001b_1;
 				}
 			}
 			{
-				goto IL_0045;
+				goto IL_004b;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -15853,14 +15858,14 @@ IL_002b_1:
 		}
 	}
 
-IL_0045:
+IL_004b:
 	{
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
 		if (!L_5)
 		{
-			goto IL_0053;
+			goto IL_0059;
 		}
 	}
 	{
@@ -15868,21 +15873,21 @@ IL_0045:
 		bool L_6;
 		L_6 = UIElementsRuntimeUtility_get_useDefaultEventSystem_mCDE09EA673DCD2ECDED478A7D65F6B583F09F84E(NULL);
 		G_B9_0 = ((int32_t)(L_6));
-		goto IL_0054;
+		goto IL_005a;
 	}
 
-IL_0053:
+IL_0059:
 	{
 		G_B9_0 = 0;
 	}
 
-IL_0054:
+IL_005a:
 	{
 		V_2 = (bool)G_B9_0;
 		bool L_7 = V_2;
 		if (!L_7)
 		{
-			goto IL_0066;
+			goto IL_006c;
 		}
 	}
 	{
@@ -15892,7 +15897,7 @@ IL_0054:
 		DefaultEventSystem_Update_mCE51CFDBC3047FDD434115895C22FA2235F1556C(L_8, 1, NULL);
 	}
 
-IL_0066:
+IL_006c:
 	{
 		return;
 	}

@@ -9536,6 +9536,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseVerticalCollectionView_get
 		return L_3;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseVerticalCollectionView_get_selectedIds_mA3336DAFC8D0B24A2963D633904779BE6D4661D9 (BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* __this, const RuntimeMethod* method) 
+{
+	{
+		Selection_tDC7A99533BDD2EB0142DB028DB38A7B4D4BBC93B* L_0 = __this->___m_Selection;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_1;
+		L_1 = Selection_get_selectedIds_mB176BD927DB29929DE8A4EB67BDBFF4FEEF4DF9A_inline(L_0, NULL);
+		return L_1;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseVerticalCollectionView_get_selectedIndex_m3BB7BE9EEBE76A482FA0747031B16CD566052F7B (BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -9587,15 +9596,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseVerticalCollectionView_get
 	{
 		Selection_tDC7A99533BDD2EB0142DB028DB38A7B4D4BBC93B* L_0 = __this->___m_Selection;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_1 = L_0->___indices;
-		return L_1;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseVerticalCollectionView_get_selectedIds_mA3336DAFC8D0B24A2963D633904779BE6D4661D9 (BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* __this, const RuntimeMethod* method) 
-{
-	{
-		Selection_tDC7A99533BDD2EB0142DB028DB38A7B4D4BBC93B* L_0 = __this->___m_Selection;
-		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_1;
-		L_1 = Selection_get_selectedIds_mB176BD927DB29929DE8A4EB67BDBFF4FEEF4DF9A_inline(L_0, NULL);
 		return L_1;
 	}
 }

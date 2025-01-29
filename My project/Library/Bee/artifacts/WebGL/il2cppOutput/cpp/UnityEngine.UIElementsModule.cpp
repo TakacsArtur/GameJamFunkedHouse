@@ -25146,6 +25146,13 @@ IL_0088:
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextualMenuManager__ctor_m6B87B2F07A95636ADB6B8488F35F8BA4AD4B7AEC (ContextualMenuManager_tEE3B1F33FFFD180705467CA625AEBA0F5D63154B* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

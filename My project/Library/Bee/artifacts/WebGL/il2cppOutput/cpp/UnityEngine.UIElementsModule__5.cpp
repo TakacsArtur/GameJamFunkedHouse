@@ -206,6 +206,7 @@ struct Func_1_tA32D6E1B8C59128597D919AA533CFE85ACD842D7;
 struct Func_1_t4BD993782F51B238FBB3CC2BAB3F54FA21085340;
 struct Func_1_tE8BA67E8B0461C7D6F2193D4F2DA78CF9D1FB6B2;
 struct Func_1_t372BD9B7E6767C5CEE3B0DB9F925B606CAEA81A0;
+struct Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E;
 struct Func_1_t185FD36A7D039DD168505FB50DB398ADA0DE6E96;
 struct Func_1_t9D92C2F8710AC456BF9358F16F639AAD4F39A357;
 struct Func_1_t032F3EFF8CE18D7A904BE740C70F2432A5D28EFE;
@@ -270,6 +271,7 @@ struct List_1_t70BBA01AC05569034FEB9847D92E5F046528FBAF;
 struct List_1_t3A511618E31C01BE3D1EA788ABB9AD6F354E8485;
 struct List_1_t63DCD4AC5D286527CD19DD2D0023AF7C03AAB2D1;
 struct MouseEventBase_1_t668C64269EF6F77113679FD1210F50818CA7E12E;
+struct MouseEventBase_1_tFECF2C68461E1836AD69A4B03BD75F2B2CB2ABD6;
 struct MouseEventBase_1_t8CFFFFBC092D11B6F52D25C2E177074C0CC59945;
 struct MouseEventBase_1_t953A98054E7AFA8FD043BFDA1CFBB6160E06EBC2;
 struct MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228;
@@ -666,11 +668,13 @@ IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tBD3A3272CA5474A0EF4F4EFF8E1751F89428D
 IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tC17F382C71F6951079D81E77988E6FEE8996FC5C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tD501482DA0C705071241B3F48D0782E9B5188854_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tD898F1A47C14556B2F1F500078B600221F5D887E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tE1B3E6721ACE88C9A37AC57EDA370CC77ED38B6E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tE40FE9F8AB3B020689A80981F4566336B3EFA9B6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tF0143A54530AEDF93FEB87C6CBA6FF7FB02BF1A1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tF3176CA51B64DBB3010435BA1986B05039647C37_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tFF13D0B80B4CBC6B9B6101B69E3A38EDB7D7A53E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventBase_1_tFF5ADBE25C7FD2806CE67DEAAA69B7AAACA73531_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventCallback_1_t537183F3C55578258C5DAF68E510087AD97961A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventCallback_1_tCE5E8F1D2A7EE5EC636D68025C6D899BD17EF38B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EventCallback_1_tDFA2360CDCE536A2DE7FA625C0295865A67D40B4_il2cpp_TypeInfo_var;
@@ -704,6 +708,7 @@ IL2CPP_EXTERN_C RuntimeClass* Func_1_t92A3A1A8EE7E4D4D3FBDF09641034017EBAB9B8D_i
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t9BA00CF103B6BA9C2B76850E3D2BE012E375DC16_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t9D92C2F8710AC456BF9358F16F639AAD4F39A357_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_tA32D6E1B8C59128597D919AA533CFE85ACD842D7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_tC5F0F46C5DE3BDB392912E45A9F8146B23323DA0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_tC6B1E9A3263610E4799CD35918CD6DFE16C737FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_tD3046D662BAFC8729D7055D0054586E9CE364806_il2cpp_TypeInfo_var;
@@ -948,6 +953,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* EventBase_1_SetCreateFunction_mD394F4CCE8A3
 IL2CPP_EXTERN_C const RuntimeMethod* EventBase_1_SetCreateFunction_mD58B8F5D47C98EA07FE650E3B20204602E8EE445_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EventBase_1_SetCreateFunction_mD93F2BF09332287897ACB12D95C472BA7B1703DA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EventBase_1_SetCreateFunction_mE4B9A4FE2370279E5AF1745CA9116B07A88C2823_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EventBase_1_SetCreateFunction_mE917AA1428DA6D88840DCD5EE5E827EBAF153A37_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EventBase_1_SetCreateFunction_mF026D403BD58A78996BCF0189CA19EAD7DD8EA66_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EventBase_1_TypeId_m08396DED606ACD1093BEEA8D939E5DA37B797C12_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* EventBase_1_TypeId_m24458C2A74404BF7DB3FC63D386EDD24CC880E58_RuntimeMethod_var;
@@ -1020,9 +1026,13 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m794DA0C14FD0BC557830E214DF
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mBD1D12956B0BC820EDB39DE6B983C74A30A6DB63_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1_GetPooled_m5C8BA4454157A0AA816235F6C004A7DE07286002_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1_GetPooled_m67758DA9E515DDB691111B3C2AFDED133D94AEF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1_GetPooled_mDA2CD5EE5E56FDDF4ECBD5B5BEF7789AD73F52CD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1_Init_mB557CC2D817400B27286C2D5FBAB71B25A0A8DD5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1_Init_mFFC1D5A84BBF1E43B3219E043EC13091772C4708_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1_PostDispatch_mB75794FD55D2CD0C88E989577B3D4768393F353F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1_PostDispatch_mE6988E33474F18D07624B92B3828903754A296E0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1__ctor_m606F1D5F8D2D5C2AB1B3857D1C2C2EBBBF1F0906_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1__ctor_m6552D6F655A8E0E8C16FD2A907590F97F2DFF8A0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1__ctor_mD3DE0C71E1F39D8D818A1EA52D607369F382C3BF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1__ctor_mE970617681C555250ADB957AAAA30CCA8471C99B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MouseEventBase_1_set_button_mD5FD234DE7E73712FF0E64F558F0621AB36EFFBA_RuntimeMethod_var;
@@ -1085,6 +1095,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* TypedUxmlAttributeDescription_1_set_default
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__0_0_m08F1B7C295299F776EC552B4FFEB0654FC130D55_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__0_0_m0F386300FF2A83671C56C2764A859AB81C5A4BE3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__0_0_m1E1AA957A73F40BA4A463B6E04BE179EA036469F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__0_0_m27D6DF5D191F32D3192940F71723AFB6C5896CCD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__0_0_m410153173750DC7FA68742D152C7E4277A0099E5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__0_0_m4D00E8E4E6E128736237C341D1F0213E392D416A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__0_0_m7487ECCEDD37501DE8E49EFF6462074B8D1E6EBE_RuntimeMethod_var;
@@ -2910,6 +2921,9 @@ struct Func_1_tE8BA67E8B0461C7D6F2193D4F2DA78CF9D1FB6B2  : public MulticastDeleg
 {
 };
 struct Func_1_t372BD9B7E6767C5CEE3B0DB9F925B606CAEA81A0  : public MulticastDelegate_t
+{
+};
+struct Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E  : public MulticastDelegate_t
 {
 };
 struct Func_1_t185FD36A7D039DD168505FB50DB398ADA0DE6E96  : public MulticastDelegate_t
@@ -4870,7 +4884,10 @@ struct FocusedElementU5BU5D_tE2EC8928994D7E368EC55BC3876976AAED693E58  : public 
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBase_1_SetCreateFunction_m7E2D1F90FA9E85CD9A9567A0FE32BA7C83F7DAF2_gshared (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___0_createMethod, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseEventBase_1_Init_mB09017C0BBE7D3647831B5202FC027D2A265953D_gshared (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseEventBase_1__ctor_mA96528C27A4FDF555CF618BC5444FDB7C3E217C0_gshared (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MouseEventBase_1_GetPooled_m8109EEFF1AF800A62540B9E8364DDAD596D502BE_gshared (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* ___0_systemEvent, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseEventBase_1_PostDispatch_m6B960FED57E8CC7841E48230254BAF12F40B4C5E_gshared (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, RuntimeObject* ___0_panel, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EventBase_1_GetPooled_mEF53FEAA4638B4B266EE30263F7A29B971443E06_gshared (EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* ___0_e, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MouseEventBase_1_set_modifiers_mBB27ED63CB8B9C4605D436020EBAFF4E905C261B_gshared_inline (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MouseEventBase_1_set_mousePosition_mC76A8A8127B2CB71D46D025F90FE582AEB528837_gshared_inline (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
@@ -4878,8 +4895,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MouseEventBase_1_set_localMo
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MouseEventBase_1_set_mouseDelta_mB3F8D176A5FAE5B852189B8A3CEE198EE6A9EC30_gshared_inline (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MouseEventBase_1_set_button_mF270A8339C5AC038E479B859775869D8D48F48BF_gshared_inline (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MouseEventBase_1_set_clickCount_m1B8567BD7A396975B4E837660384E6D760116894_gshared_inline (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseEventBase_1_Init_mB09017C0BBE7D3647831B5202FC027D2A265953D_gshared (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseEventBase_1_PostDispatch_m6B960FED57E8CC7841E48230254BAF12F40B4C5E_gshared (MouseEventBase_1_t5B5081D29C8BECF72DF89EF50BB137E251C48228* __this, RuntimeObject* ___0_panel, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MouseEventBase_1_GetPooled_mAEB02CEEE74548033154896B4BC8BAEEDE16FC5A_gshared (RuntimeObject* ___0_triggerEvent, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_mousePosition, bool ___2_recomputeTopElementUnderMouse, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PointerEventBase_1_GetPooled_m73C55154987E587C2FC2BA5545BD35CAE027F3BA_gshared (RuntimeObject* ___0_triggerEvent, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_position, int32_t ___2_pointerId, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NavigationEventBase_1_GetPooled_m11B6522FAE989256AFD36F82DF9C698DDA6D397D_gshared (int32_t ___0_deviceType, int32_t ___1_modifiers, const RuntimeMethod* method) ;
@@ -4961,6 +4976,34 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m86791372DC532350B9279FF0F977CF6B5B039961_gshared (List_1_t1E327CB749CA1F2F2DA41B2D4DFF57FD6BE0FF66* __this, FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF ___0_item, const RuntimeMethod* method) ;
 
+inline void Func_1__ctor_m302D297C029F8E894068DCC1B90AA29AE82425F0 (Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_m663374A863E492A515BE9626B6F0E444991834E8_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void EventBase_1_SetCreateFunction_mE917AA1428DA6D88840DCD5EE5E827EBAF153A37 (Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E* ___0_createMethod, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E*, const RuntimeMethod*))EventBase_1_SetCreateFunction_m7E2D1F90FA9E85CD9A9567A0FE32BA7C83F7DAF2_gshared)(___0_createMethod, method);
+}
+inline void MouseEventBase_1_Init_mFFC1D5A84BBF1E43B3219E043EC13091772C4708 (MouseEventBase_1_tFECF2C68461E1836AD69A4B03BD75F2B2CB2ABD6* __this, const RuntimeMethod* method)
+{
+	((  void (*) (MouseEventBase_1_tFECF2C68461E1836AD69A4B03BD75F2B2CB2ABD6*, const RuntimeMethod*))MouseEventBase_1_Init_mB09017C0BBE7D3647831B5202FC027D2A265953D_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLeaveWindowEvent_LocalInit_m2041C8ED9719EA11285AD22A3BD4FE69BE0CDE9B (MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventBase_set_propagation_m1F5D2A6582B8A4D64F84F0B71F90790FA2BF7E8C_inline (EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+inline void MouseEventBase_1__ctor_m6552D6F655A8E0E8C16FD2A907590F97F2DFF8A0 (MouseEventBase_1_tFECF2C68461E1836AD69A4B03BD75F2B2CB2ABD6* __this, const RuntimeMethod* method)
+{
+	((  void (*) (MouseEventBase_1_tFECF2C68461E1836AD69A4B03BD75F2B2CB2ABD6*, const RuntimeMethod*))MouseEventBase_1__ctor_mA96528C27A4FDF555CF618BC5444FDB7C3E217C0_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerDeviceState_ReleaseAllButtons_mCB608A120B1851402C0300EF8AA95620A1AF86AA (int32_t ___0_pointerId, const RuntimeMethod* method) ;
+inline MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* MouseEventBase_1_GetPooled_mDA2CD5EE5E56FDDF4ECBD5B5BEF7789AD73F52CD (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* ___0_systemEvent, const RuntimeMethod* method)
+{
+	return ((  MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* (*) (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB*, const RuntimeMethod*))MouseEventBase_1_GetPooled_m8109EEFF1AF800A62540B9E8364DDAD596D502BE_gshared)(___0_systemEvent, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseVisualElementPanel_CommitElementUnderPointers_m627C64420BE261C972B4A9D37E619E9E275EB072 (BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* __this, const RuntimeMethod* method) ;
+inline void MouseEventBase_1_PostDispatch_mE6988E33474F18D07624B92B3828903754A296E0 (MouseEventBase_1_tFECF2C68461E1836AD69A4B03BD75F2B2CB2ABD6* __this, RuntimeObject* ___0_panel, const RuntimeMethod* method)
+{
+	((  void (*) (MouseEventBase_1_tFECF2C68461E1836AD69A4B03BD75F2B2CB2ABD6*, RuntimeObject*, const RuntimeMethod*))MouseEventBase_1_PostDispatch_m6B960FED57E8CC7841E48230254BAF12F40B4C5E_gshared)(__this, ___0_panel, method);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA8F46D55544A12E49996D983CC7E9233FBEDAC99 (U3CU3Ec_tA406F201B3FE0C6C942440DCE7777CBD04EAFD05* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLeaveWindowEvent__ctor_m1E173F3A3AFE54BCDF42475D1EBB5218979E885C (MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* __this, const RuntimeMethod* method) ;
@@ -5219,7 +5262,6 @@ inline void PointerEventBase_1_Init_mA1E6CC3B61166169763B6912412A3E33CBF87E93 (P
 	((  void (*) (PointerEventBase_1_t7591EB7533D2DA4AE63C7E535343F090911843C9*, const RuntimeMethod*))PointerEventBase_1_Init_mC10751BD7B55C42BCBC1E855E9B31116A1DE9EAE_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerDownEvent_LocalInit_mA33241586037DFD52930AEAD5B3FD54CF31EE552 (PointerDownEvent_tABAAD1BACBB98156D6BCCED51E11883EAFE03A51* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventBase_set_propagation_m1F5D2A6582B8A4D64F84F0B71F90790FA2BF7E8C_inline (EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 inline void PointerEventBase_1__ctor_m998F76A42DE6E5246AEECA0095657850B41DA8A2 (PointerEventBase_1_t7591EB7533D2DA4AE63C7E535343F090911843C9* __this, const RuntimeMethod* method)
 {
 	((  void (*) (PointerEventBase_1_t7591EB7533D2DA4AE63C7E535343F090911843C9*, const RuntimeMethod*))PointerEventBase_1__ctor_mEB528D68A256915EA1143085BD73099BEF96F39E_gshared)(__this, method);
@@ -6425,7 +6467,6 @@ inline void Action_1_Invoke_m5B83CFB83F4C5479D2BA93955802B87259150DC8_inline (Ac
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ElementUnderPointer_SetElementUnderPointer_mB98D02429317EDFDC06390700EFA5B68BBF4375D (ElementUnderPointer_tB43AD64F79C6F06829D8B90318AF1A6BBE9C1904* __this, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___0_newElementUnderPointer, int32_t ___1_pointerId, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_pointerPos, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerDeviceState_GetPointerPosition_m4F2F8719AB146901C9C64730F74B9EEF916E8A77 (int32_t ___0_pointerId, int32_t ___1_contextType, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseVisualElementPanel_CommitElementUnderPointers_m627C64420BE261C972B4A9D37E619E9E275EB072 (BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerEventScheduler__ctor_m6AD7A5372A6E2E9C9D87E724B529FDED30AA5178 (TimerEventScheduler_tAF33EE8B1C54425235E4893B0C5088629FBE7862* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimerEventScheduler_tAF33EE8B1C54425235E4893B0C5088629FBE7862* Panel_get_timerEventScheduler_m2C7A1ADBB9C1B67ACC7F751A2578AC24FCA7B134 (Panel_t2B0DCF68A7A5EBC347FAE66F046EA98B53AF1AB9* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LoadResourceFunction_tA999A2DDCB9CDCF68E4274A58336A39ABB7AF850* Panel_get_loadResourceFunc_m8093A2F11D0C7B0CA2A8D0D61E72BF0E0BF498FA_inline (const RuntimeMethod* method) ;
@@ -6494,6 +6535,178 @@ inline void List_1_AddWithResize_m86791372DC532350B9279FF0F977CF6B5B039961 (List
 	((  void (*) (List_1_t1E327CB749CA1F2F2DA41B2D4DFF57FD6BE0FF66*, FocusedElement_t1EE083A1C5276213C533A38C6B5DC02E9DE5CBEF, const RuntimeMethod*))List_1_AddWithResize_m86791372DC532350B9279FF0F977CF6B5B039961_gshared)(__this, ___0_item, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProfilerUnsafeUtility_BeginSample_mB5106F4E7ECEF54906545665ED23928D14F5FCA7 (intptr_t ___0_markerPtr, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLeaveWindowEvent__cctor_m803E1218F14F1DA69ECEF8D54B984DA890E32CDC (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventBase_1_SetCreateFunction_mE917AA1428DA6D88840DCD5EE5E827EBAF153A37_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventBase_1_tE1B3E6721ACE88C9A37AC57EDA370CC77ED38B6E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_cctorU3Eb__0_0_m27D6DF5D191F32D3192940F71723AFB6C5896CCD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tA406F201B3FE0C6C942440DCE7777CBD04EAFD05_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA406F201B3FE0C6C942440DCE7777CBD04EAFD05_il2cpp_TypeInfo_var);
+		U3CU3Ec_tA406F201B3FE0C6C942440DCE7777CBD04EAFD05* L_0 = ((U3CU3Ec_tA406F201B3FE0C6C942440DCE7777CBD04EAFD05_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA406F201B3FE0C6C942440DCE7777CBD04EAFD05_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E* L_1 = (Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E*)il2cpp_codegen_object_new(Func_1_tA5DD3CF8AAEF3C02BB8A95AF022E1A77365A4F0E_il2cpp_TypeInfo_var);
+		Func_1__ctor_m302D297C029F8E894068DCC1B90AA29AE82425F0(L_1, L_0, (intptr_t)((void*)U3CU3Ec_U3C_cctorU3Eb__0_0_m27D6DF5D191F32D3192940F71723AFB6C5896CCD_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(EventBase_1_tE1B3E6721ACE88C9A37AC57EDA370CC77ED38B6E_il2cpp_TypeInfo_var);
+		EventBase_1_SetCreateFunction_mE917AA1428DA6D88840DCD5EE5E827EBAF153A37(L_1, EventBase_1_SetCreateFunction_mE917AA1428DA6D88840DCD5EE5E827EBAF153A37_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLeaveWindowEvent_Init_m7E432C3F4BF001070B2F87B7A04EA87F7DB83A7C (MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MouseEventBase_1_Init_mFFC1D5A84BBF1E43B3219E043EC13091772C4708_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MouseEventBase_1_Init_mFFC1D5A84BBF1E43B3219E043EC13091772C4708(__this, MouseEventBase_1_Init_mFFC1D5A84BBF1E43B3219E043EC13091772C4708_RuntimeMethod_var);
+		MouseLeaveWindowEvent_LocalInit_m2041C8ED9719EA11285AD22A3BD4FE69BE0CDE9B(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLeaveWindowEvent_LocalInit_m2041C8ED9719EA11285AD22A3BD4FE69BE0CDE9B (MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IMouseEventInternal_t9CCC5FB939D4B7586931387A44F1B1BA76D02F43_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		EventBase_set_propagation_m1F5D2A6582B8A4D64F84F0B71F90790FA2BF7E8C_inline(__this, 4, NULL);
+		InterfaceActionInvoker1< bool >::Invoke(3, IMouseEventInternal_t9CCC5FB939D4B7586931387A44F1B1BA76D02F43_il2cpp_TypeInfo_var, __this, (bool)0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLeaveWindowEvent__ctor_m1E173F3A3AFE54BCDF42475D1EBB5218979E885C (MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MouseEventBase_1__ctor_m6552D6F655A8E0E8C16FD2A907590F97F2DFF8A0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MouseEventBase_1__ctor_m6552D6F655A8E0E8C16FD2A907590F97F2DFF8A0(__this, MouseEventBase_1__ctor_m6552D6F655A8E0E8C16FD2A907590F97F2DFF8A0_RuntimeMethod_var);
+		MouseLeaveWindowEvent_LocalInit_m2041C8ED9719EA11285AD22A3BD4FE69BE0CDE9B(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* MouseLeaveWindowEvent_GetPooled_mB72EEDAEF5190F1398C2087940F2634BD787A0FE (Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* ___0_systemEvent, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MouseEventBase_1_GetPooled_mDA2CD5EE5E56FDDF4ECBD5B5BEF7789AD73F52CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointerDeviceState_tD94EF3C9710026DE8B7E83B6C842524C7C6EBA8C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointerId_tE48DCDC5C36DD1F5595C28EE48C0243BA8BEF35C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* V_1 = NULL;
+	{
+		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_0 = ___0_systemEvent;
+		V_0 = (bool)((!(((RuntimeObject*)(Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(PointerId_tE48DCDC5C36DD1F5595C28EE48C0243BA8BEF35C_il2cpp_TypeInfo_var);
+		int32_t L_2 = ((PointerId_tE48DCDC5C36DD1F5595C28EE48C0243BA8BEF35C_StaticFields*)il2cpp_codegen_static_fields_for(PointerId_tE48DCDC5C36DD1F5595C28EE48C0243BA8BEF35C_il2cpp_TypeInfo_var))->___mousePointerId;
+		il2cpp_codegen_runtime_class_init_inline(PointerDeviceState_tD94EF3C9710026DE8B7E83B6C842524C7C6EBA8C_il2cpp_TypeInfo_var);
+		PointerDeviceState_ReleaseAllButtons_mCB608A120B1851402C0300EF8AA95620A1AF86AA(L_2, NULL);
+	}
+
+IL_0014:
+	{
+		Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* L_3 = ___0_systemEvent;
+		MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* L_4;
+		L_4 = MouseEventBase_1_GetPooled_mDA2CD5EE5E56FDDF4ECBD5B5BEF7789AD73F52CD(L_3, MouseEventBase_1_GetPooled_mDA2CD5EE5E56FDDF4ECBD5B5BEF7789AD73F52CD_RuntimeMethod_var);
+		V_1 = L_4;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLeaveWindowEvent_PostDispatch_mCF0B6E80B668835676908D2F97D64B0C91F6AB9D (MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7* __this, RuntimeObject* ___0_panel, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IMouseEventInternal_t9CCC5FB939D4B7586931387A44F1B1BA76D02F43_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MouseEventBase_1_PostDispatch_mE6988E33474F18D07624B92B3828903754A296E0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* V_0 = NULL;
+	bool V_1 = false;
+	BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* G_B3_0 = NULL;
+	BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* G_B2_0 = NULL;
+	{
+		RuntimeObject* L_0;
+		L_0 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(4, IMouseEventInternal_t9CCC5FB939D4B7586931387A44F1B1BA76D02F43_il2cpp_TypeInfo_var, __this);
+		V_0 = ((EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C*)IsInstClass((RuntimeObject*)L_0, EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C_il2cpp_TypeInfo_var));
+		EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* L_1 = V_0;
+		V_1 = (bool)((((RuntimeObject*)(EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		RuntimeObject* L_3 = ___0_panel;
+		BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* L_4 = ((BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303*)IsInstClass((RuntimeObject*)L_3, BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303_il2cpp_TypeInfo_var));
+		if (L_4)
+		{
+			G_B3_0 = L_4;
+			goto IL_0022;
+		}
+		G_B2_0 = L_4;
+	}
+	{
+		goto IL_0028;
+	}
+
+IL_0022:
+	{
+		BaseVisualElementPanel_CommitElementUnderPointers_m627C64420BE261C972B4A9D37E619E9E275EB072(G_B3_0, NULL);
+	}
+
+IL_0028:
+	{
+	}
+
+IL_0029:
+	{
+		RuntimeObject* L_5 = ___0_panel;
+		MouseEventBase_1_PostDispatch_mE6988E33474F18D07624B92B3828903754A296E0(__this, L_5, MouseEventBase_1_PostDispatch_mE6988E33474F18D07624B92B3828903754A296E0_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -31688,6 +31901,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Int_t69B2886EBAB732D9B880565E18E7568F3
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventBase_set_propagation_m1F5D2A6582B8A4D64F84F0B71F90790FA2BF7E8C_inline (EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_value;
+		__this->___U3CpropagationU3Ek__BackingField = L_0;
+		return;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ContextualMenuPopulateEvent_set_triggerEvent_m6AEDC5CEB93E6A8DA01BD7760D7DE05C90884E3A_inline (ContextualMenuPopulateEvent_t72C856D9B3951E3AA5901442A98BF6DE7F4258FB* __this, EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -31920,14 +32141,6 @@ IL_003f:
 	{
 		bool L_12 = V_0;
 		return L_12;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EventBase_set_propagation_m1F5D2A6582B8A4D64F84F0B71F90790FA2BF7E8C_inline (EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C* __this, int32_t ___0_value, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = ___0_value;
-		__this->___U3CpropagationU3Ek__BackingField = L_0;
-		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PointerMoveEvent_set_isHandledByDraggable_m24AE525901E56FE8A7936EDA8F2046862BB3660D_inline (PointerMoveEvent_t2C1E2E20A07034638F48C3EB94B8520549D770C3* __this, bool ___0_value, const RuntimeMethod* method) 

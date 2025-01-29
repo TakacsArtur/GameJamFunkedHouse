@@ -128,7 +128,7 @@ namespace UnityEngine.UI
                         adjustedPosition.y *= display.systemHeight / sizePlusPadding.y;
                     }
 
-#if ENABLE_INPUT_SYSTEM && PACKAGE_INPUTSYSTEM && UNITY_ANDROID
+#if ENABLE_INPUT_SYSTEM && PACKAGE_INPUTSYSTEM && (UNITY_STANDALONE_WIN || UNITY_ANDROID)
                     var relativePos = new Vector3(adjustedPosition.x, adjustedPosition.y, displayIndex);
 #else
                     var relativePos = Display.RelativeMouseAt(adjustedPosition);
@@ -147,8 +147,8 @@ namespace UnityEngine.UI
                 return new Vector3(position.x, position.y, 0);
 #endif
             }
-            #endif
-#if ENABLE_INPUT_SYSTEM && PACKAGE_INPUTSYSTEM && UNITY_ANDROID
+#endif
+#if ENABLE_INPUT_SYSTEM && PACKAGE_INPUTSYSTEM && (UNITY_STANDALONE_WIN || UNITY_ANDROID)
             return new Vector3(position.x, position.y, displayIndex);
 #else
             return Display.RelativeMouseAt(position);

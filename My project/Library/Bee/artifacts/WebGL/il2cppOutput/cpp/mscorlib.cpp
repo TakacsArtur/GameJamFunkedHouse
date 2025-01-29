@@ -20386,6 +20386,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SafeFileHandle_ReleaseHandle_mFB3F634215
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeWaitHandle__ctor_m92C70929CD25BB43A3E2E066970FDED1A8353EBC (SafeWaitHandle_t58F5662CD56F6462A687198A64987F8980804449* __this, const RuntimeMethod* method) 
+{
+	{
+		SafeHandleZeroOrMinusOneIsInvalid__ctor_m9BA85F78EC25654EE170CA999EC379D9A4B59B89(__this, (bool)1, NULL);
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeWaitHandle__ctor_m6CA082DF779C0BAAA7EEDE99BB2ECF1ECDB579DA (SafeWaitHandle_t58F5662CD56F6462A687198A64987F8980804449* __this, intptr_t ___0_existingHandle, bool ___1_ownsHandle, const RuntimeMethod* method) 
 {
 	{

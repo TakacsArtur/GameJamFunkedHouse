@@ -2578,6 +2578,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_TextAsset_get_bytes();
 		Register_UnityEngine_TextAsset_get_bytes();
 
+		//System.Void UnityEngine.TextAsset::Internal_CreateInstance(UnityEngine.TextAsset,System.String)
+		void Register_UnityEngine_TextAsset_Internal_CreateInstance();
+		Register_UnityEngine_TextAsset_Internal_CreateInstance();
+
 	//End Registrations for type : UnityEngine.TextAsset
 
 	//Start Registrations for type : UnityEngine.TextCore.LowLevel.FontEngine

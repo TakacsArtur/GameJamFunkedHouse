@@ -19,6 +19,7 @@ extern void CanvasGroup_get_blocksRaycasts_mFEC4D16E66CD2480692CC66CF79FCA06DBF0
 extern void CanvasGroup_get_ignoreParentGroups_m2F38E053B86FD01735C2DA2047E197C0B8654361 (void);
 extern void CanvasGroup_set_ignoreParentGroups_m2BE51419DAEA6EBB3C2AC8BD505AABD02B240E9D (void);
 extern void CanvasGroup_IsRaycastLocationValid_m3B745747F3BF9BAC4EFB9F76F02DE3219D8D54D1 (void);
+extern void CanvasGroup__ctor_m315BFDC80521A96D478D24E9DD2DC383AE2CF89A (void);
 extern void CanvasRenderer_set_hasPopInstruction_mDE56514A0B57434BCE041751AC7D889E9E0BD3FD (void);
 extern void CanvasRenderer_get_materialCount_mC1D89124EFE51534C3A43577FFA54117DA7083B9 (void);
 extern void CanvasRenderer_set_materialCount_m333926C78CD98557B86A8EAC66F47BD4DD4554C3 (void);
@@ -49,6 +50,7 @@ extern void CanvasRenderer_AddUIVertexStream_mD839C4D23B91E99AE2BD8F89C537FE62F5
 extern void CanvasRenderer_SplitIndicesStreamsInternal_m1CAD8F8DFEBFE03778B72F1AD290CADBAFA63848 (void);
 extern void CanvasRenderer_SplitUIVertexStreamsInternal_mE0E7EF4A1B611F30DA5D236F81985154A2D2E50A (void);
 extern void CanvasRenderer_CreateUIVertexStreamInternal_mDCD7E8138A464984EA7F4CE942BA4C0E034B7296 (void);
+extern void CanvasRenderer__ctor_mE2E55BC433AB98B1AFD219076BAB594A155230CC (void);
 extern void CanvasRenderer_SetColor_Injected_m6B0B403517E37EC59E63BB8C7123D1C267666FF9 (void);
 extern void CanvasRenderer_GetColor_Injected_m2D453196FA486DEE106CE656D21D32A133ECBF62 (void);
 extern void CanvasRenderer_EnableRectClipping_Injected_m8B48D01DFAF55EA4FD654D3E7F21CB61BF367A43 (void);
@@ -116,7 +118,7 @@ extern void WillRenderCanvases_Invoke_m47BAAC9AD2F84BF75E0021F436A6286C09A30566 
 extern void UISystemProfilerApi_BeginSample_m6AF893A85204DA2129D9D3D75D8A6EDD329FA23E (void);
 extern void UISystemProfilerApi_EndSample_mAFBCEDF8073F3FB0E1644482D909F108DBE11F3D (void);
 extern void UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B (void);
-static Il2CppMethodPointer s_methodPointers[105] = 
+static Il2CppMethodPointer s_methodPointers[107] = 
 {
 	NULL,
 	CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF,
@@ -126,6 +128,7 @@ static Il2CppMethodPointer s_methodPointers[105] =
 	CanvasGroup_get_ignoreParentGroups_m2F38E053B86FD01735C2DA2047E197C0B8654361,
 	CanvasGroup_set_ignoreParentGroups_m2BE51419DAEA6EBB3C2AC8BD505AABD02B240E9D,
 	CanvasGroup_IsRaycastLocationValid_m3B745747F3BF9BAC4EFB9F76F02DE3219D8D54D1,
+	CanvasGroup__ctor_m315BFDC80521A96D478D24E9DD2DC383AE2CF89A,
 	CanvasRenderer_set_hasPopInstruction_mDE56514A0B57434BCE041751AC7D889E9E0BD3FD,
 	CanvasRenderer_get_materialCount_mC1D89124EFE51534C3A43577FFA54117DA7083B9,
 	CanvasRenderer_set_materialCount_m333926C78CD98557B86A8EAC66F47BD4DD4554C3,
@@ -156,6 +159,7 @@ static Il2CppMethodPointer s_methodPointers[105] =
 	CanvasRenderer_SplitIndicesStreamsInternal_m1CAD8F8DFEBFE03778B72F1AD290CADBAFA63848,
 	CanvasRenderer_SplitUIVertexStreamsInternal_mE0E7EF4A1B611F30DA5D236F81985154A2D2E50A,
 	CanvasRenderer_CreateUIVertexStreamInternal_mDCD7E8138A464984EA7F4CE942BA4C0E034B7296,
+	CanvasRenderer__ctor_mE2E55BC433AB98B1AFD219076BAB594A155230CC,
 	CanvasRenderer_SetColor_Injected_m6B0B403517E37EC59E63BB8C7123D1C267666FF9,
 	CanvasRenderer_GetColor_Injected_m2D453196FA486DEE106CE656D21D32A133ECBF62,
 	CanvasRenderer_EnableRectClipping_Injected_m8B48D01DFAF55EA4FD654D3E7F21CB61BF367A43,
@@ -224,7 +228,7 @@ static Il2CppMethodPointer s_methodPointers[105] =
 	UISystemProfilerApi_EndSample_mAFBCEDF8073F3FB0E1644482D909F108DBE11F3D,
 	UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B,
 };
-static const int32_t s_InvokerIndices[105] = 
+static const int32_t s_InvokerIndices[107] = 
 {
 	0,
 	4400,
@@ -234,6 +238,7 @@ static const int32_t s_InvokerIndices[105] =
 	4287,
 	3516,
 	1243,
+	4460,
 	3516,
 	4335,
 	3568,
@@ -264,6 +269,7 @@ static const int32_t s_InvokerIndices[105] =
 	5870,
 	4554,
 	4537,
+	4460,
 	3505,
 	3505,
 	3505,
@@ -336,7 +342,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule = 
 {
 	"UnityEngine.UIModule.dll",
-	105,
+	107,
 	s_methodPointers,
 	0,
 	NULL,

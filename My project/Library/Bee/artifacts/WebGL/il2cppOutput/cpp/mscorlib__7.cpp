@@ -3841,6 +3841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadPool_InitializeVMTp_m9816F2390459E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadPool_NotifyWorkItemProgressNative_mF3C0F1CF9D81C18DB2812DF3151461D0BF617BA2 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Thread_get_IsThreadPoolThread_m73019FFF8E168CCCA6094E5C88F594CB015684E9 (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922 (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* __this, bool* ___0_success, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeWaitHandle__ctor_m92C70929CD25BB43A3E2E066970FDED1A8353EBC (SafeWaitHandle_t58F5662CD56F6462A687198A64987F8980804449* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarshalByRefObject__ctor_mCBAD191F9BB35587528256781970FDFEFCDBE538 (MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitHandle_Init_m060CCB46911D936A742FB95B2E5EC3171FCC5C1B (WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271 (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
@@ -16648,7 +16649,7 @@ IL2CPP_EXTERN_C void WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_marsha
 	memset((&unmarshaledwaitHandle_temp_0), 0, sizeof(unmarshaledwaitHandle_temp_0));
 	unmarshaledwaitHandle_temp_0 = marshaled.___waitHandle;
 	unmarshaled.___waitHandle = unmarshaledwaitHandle_temp_0;
-	IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_missing_method_exception("A parameterless constructor is required for type 'Microsoft.Win32.SafeHandles.SafeWaitHandle'."), NULL);
+	SafeWaitHandle__ctor_m92C70929CD25BB43A3E2E066970FDED1A8353EBC(unmarshaled.___safeWaitHandle, NULL);
 	intptr_t unmarshaledsafeWaitHandle_handle_temp;
 	unmarshaledsafeWaitHandle_handle_temp = (intptr_t)marshaled.___safeWaitHandle;
 	(unmarshaled.___safeWaitHandle)->___handle = unmarshaledsafeWaitHandle_handle_temp;
@@ -16718,7 +16719,7 @@ IL2CPP_EXTERN_C void WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8_marsha
 	memset((&unmarshaledwaitHandle_temp_0), 0, sizeof(unmarshaledwaitHandle_temp_0));
 	unmarshaledwaitHandle_temp_0 = marshaled.___waitHandle;
 	unmarshaled.___waitHandle = unmarshaledwaitHandle_temp_0;
-	IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_missing_method_exception("A parameterless constructor is required for type 'Microsoft.Win32.SafeHandles.SafeWaitHandle'."), NULL);
+	SafeWaitHandle__ctor_m92C70929CD25BB43A3E2E066970FDED1A8353EBC(unmarshaled.___safeWaitHandle, NULL);
 	intptr_t unmarshaledsafeWaitHandle_handle_temp;
 	unmarshaledsafeWaitHandle_handle_temp = (intptr_t)marshaled.___safeWaitHandle;
 	(unmarshaled.___safeWaitHandle)->___handle = unmarshaledsafeWaitHandle_handle_temp;

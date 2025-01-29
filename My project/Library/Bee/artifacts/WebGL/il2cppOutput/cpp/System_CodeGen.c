@@ -193,6 +193,43 @@ extern void Capture_get_Text_mDD394681E5FC39FFDCCD9552C0BF09DF8A7054ED (void);
 extern void Capture_set_Text_m99AE1BB9AF9D7744D0E6F747DCF5A378591C353C (void);
 extern void Capture_get_Value_m1AB4193C2FC4B0D08AA34FECF10D03876D848BDC (void);
 extern void Capture_ToString_mC843EDDC990DBE2696BA08D08B1081CA12228F2C (void);
+extern void Capture__ctor_mC5CF26C74D61540739B92848EB84D13AD912A6CE (void);
+extern void CaptureCollection_get_IsReadOnly_m544CE7EBB10F98ADBF334C7EB1C5CB1A04B1A948 (void);
+extern void CaptureCollection_get_Count_mA45A82BA7103D81E8FC506A02DA2FF862344006E (void);
+extern void CaptureCollection_get_Item_m9E773C623570B88CA00A8E1309C69EE1C60719CC (void);
+extern void CaptureCollection_GetEnumerator_m9741991231D034DB55237037C882D93E0F5024CD (void);
+extern void CaptureCollection_System_Collections_Generic_IEnumerableU3CSystem_Text_RegularExpressions_CaptureU3E_GetEnumerator_m08F1A7D9047FCC05FA68111524200D0AFC137938 (void);
+extern void CaptureCollection_GetCapture_mE5861EC54212C16A889D4DBEE0919A890E2CAA3F (void);
+extern void CaptureCollection_ForceInitialized_m0C9BE984C4D23DF43EBBAC9E327D6A284F3AD7D7 (void);
+extern void CaptureCollection_get_SyncRoot_mDD4E8BD300179AA10BFD374A7997E70882164426 (void);
+extern void CaptureCollection_CopyTo_m9A82FE43F6FBA0E2259FFAAED41A9C3EBB2B7F41 (void);
+extern void CaptureCollection_CopyTo_m128D17DA5576B1918BD10A44D580FB14469D3B71 (void);
+extern void CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_IndexOf_m7A57F72D1F5DC1FE58D29C9362C8EF4CBFD9C80E (void);
+extern void CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_Insert_m8334CC72890CB455AFCD34C89297BB6AB1F73C1C (void);
+extern void CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_RemoveAt_mB209E6B7935ADEDFD9D2DA3C902BD4ADDB8C6F87 (void);
+extern void CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_get_Item_m0563F46C3E13C59EC1F3EA7C5AD64FF5923DC05A (void);
+extern void CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_set_Item_m44821FC86A3EC496A9930AE5CBE98DF3A9F2808F (void);
+extern void CaptureCollection_System_Collections_Generic_ICollectionU3CSystem_Text_RegularExpressions_CaptureU3E_Add_mB897EF6BAB123B6FD4E928F26B7DE9068B378046 (void);
+extern void CaptureCollection_System_Collections_Generic_ICollectionU3CSystem_Text_RegularExpressions_CaptureU3E_Clear_m6A7F73F4A5D1B3EA157DB217BC286C6604067537 (void);
+extern void CaptureCollection_System_Collections_Generic_ICollectionU3CSystem_Text_RegularExpressions_CaptureU3E_Contains_mCC00F396D97793D7C3EC276270742A11155A6EFC (void);
+extern void CaptureCollection_System_Collections_Generic_ICollectionU3CSystem_Text_RegularExpressions_CaptureU3E_Remove_m1E16A8CE87FA9FD577BD632A161DBD36A74F623A (void);
+extern void CaptureCollection_System_Collections_IList_Add_m75A066567BB4D64D53A3D1CC3F1B5F671A517DDB (void);
+extern void CaptureCollection_System_Collections_IList_Clear_m33E7674F242F71EFC286F814AA86FB9A5B9FA250 (void);
+extern void CaptureCollection_System_Collections_IList_Contains_m9D8919229299279D663E1F833D2B30BA9679172B (void);
+extern void CaptureCollection_System_Collections_IList_IndexOf_mED9A679F34F788ECFCBC8C438681D72C61D738EB (void);
+extern void CaptureCollection_System_Collections_IList_Insert_m31879B97BDF915DC54C86FCDD74F7A370E3BCAAE (void);
+extern void CaptureCollection_System_Collections_IList_get_IsFixedSize_mA107549E6FFF9B37E701DAB43517F271CF3BAD30 (void);
+extern void CaptureCollection_System_Collections_IList_Remove_m1C19C06EC2B10A4BB421A8A1BFCC3E4198ADEA3B (void);
+extern void CaptureCollection_System_Collections_IList_RemoveAt_mDC5B90DC4C4B1C260D19255371DE54538E47D46C (void);
+extern void CaptureCollection_System_Collections_IList_get_Item_mD89C5103E74C10C72CBD77720453F8AA5CC674DC (void);
+extern void CaptureCollection_System_Collections_IList_set_Item_m65A9F754F6BAC13F5516107E4CB0957A95CFE052 (void);
+extern void CaptureCollection__ctor_m78149EC3020BFBAEC7ECA490F738EB38345F56CB (void);
+extern void Enumerator__ctor_m6FC4AEE67490B5F90DDE420D4D822620C29ED9D9 (void);
+extern void Enumerator_MoveNext_mAB6795B3BA2C1F43C001DC22916750AA3DBB163F (void);
+extern void Enumerator_get_Current_mE97EB5EEFDA5790DF167FE959EF33B05FA29123B (void);
+extern void Enumerator_System_Collections_IEnumerator_get_Current_m3D9BB5D26D61C3690B7BC2588C54D7DDE43CC2D8 (void);
+extern void Enumerator_System_Collections_IEnumerator_Reset_mF1CD39F57036557646CE20345323A8C0D23014E4 (void);
+extern void Enumerator_System_IDisposable_Dispose_m5CD00FB7C5CC181B73F0DE2709122717A518D86F (void);
 extern void Group__ctor_mFDE74CF068520CBE797B563B419B8817E60CB58C (void);
 extern void Group_get_Success_m4E0238EE4B1E7F927E2AF13E2E5901BCA92BE62F (void);
 extern void Group__cctor_mCEC94034CDEE90B4E5B77AE639965DA426C49161 (void);
@@ -264,6 +301,7 @@ extern void Regex_Match_mDF110993CAA26CD41AE9F5DB7F0C307B2680CED3 (void);
 extern void Regex__cctor_m689E73750FECC607BB4E1BF503660C16BE0F40E8 (void);
 extern void Regex_ValidateMatchTimeout_m530D1B5EBC69BEAA11CCB7053A96C4AA9869C591 (void);
 extern void Regex_InitDefaultMatchTimeout_m8EEBEF239D034DCF29E50E681B318B517202854E (void);
+extern void Regex__ctor_mE3A1B095FDFDDA41434B5A2CC70403EB18FE8251 (void);
 extern void Regex__ctor_mE3996C71B04A4A6845745D01C93B1D27423D0621 (void);
 extern void Regex_System_Runtime_Serialization_ISerializable_GetObjectData_mD788EE38607BF5D618FDA920048707DF4CA4B99C (void);
 extern void Regex__ctor_mA8EBF2F80CC00D741BFD2FFD7DC9DB26FBCEE2A4 (void);
@@ -518,6 +556,7 @@ extern void RegexRunner_Uncapture_m70B0FFB308F48B4673F73311330BFF640F47B7D9 (voi
 extern void RegexRunner_IsMatched_m7E64237D020BFFA74813A8B6455D5F35671A876C (void);
 extern void RegexRunner_MatchIndex_m150A8B71C07022C485630C71B2A9FA6FD195F88F (void);
 extern void RegexRunner_MatchLength_m19C9B24F4F6CAC56A391A0AC47A4358C61615BF7 (void);
+extern void RegexRunnerFactory__ctor_mC5045C1DC57E3C151C205E5B274D4AA5F61EE235 (void);
 extern void RegexTree__ctor_m89DA1335AAB55B0707774E978E6078CE42DB0DA6 (void);
 extern void RegexWriter__ctor_m37DF964F59213D287C9D812A3D0945744BF341EE (void);
 extern void RegexWriter_Write_m69A5583635E511D67176A977E96C17AC982C4F01 (void);
@@ -696,7 +735,7 @@ extern void WebRequestModuleElementCollection__ctor_m62C156D78336B2E37EA6F10D477
 extern void DiagnosticsConfigurationHandler__ctor_mDFB0000E6218840F66D21BB6C9BF3F647CCBC5A3 (void);
 extern void DiagnosticsConfigurationHandler_Create_mF21B1CC68B87DE078690B2B493FCDC5F728CBAAB (void);
 extern void ThrowStub_ThrowNotSupportedException_m14168B43936EF78B7B8AC08BD815254DAA1D9FA2 (void);
-static Il2CppMethodPointer s_methodPointers[735] = 
+static Il2CppMethodPointer s_methodPointers[774] = 
 {
 	OidLookup_ToOid_m084AE2948BA1D784EAC148B97B6D5EF94F0D58B0,
 	OidLookup_ShouldUseCache_mAF605BA00A22EA400B99D24286837F6904C84ED0,
@@ -879,6 +918,43 @@ static Il2CppMethodPointer s_methodPointers[735] =
 	Capture_set_Text_m99AE1BB9AF9D7744D0E6F747DCF5A378591C353C,
 	Capture_get_Value_m1AB4193C2FC4B0D08AA34FECF10D03876D848BDC,
 	Capture_ToString_mC843EDDC990DBE2696BA08D08B1081CA12228F2C,
+	Capture__ctor_mC5CF26C74D61540739B92848EB84D13AD912A6CE,
+	CaptureCollection_get_IsReadOnly_m544CE7EBB10F98ADBF334C7EB1C5CB1A04B1A948,
+	CaptureCollection_get_Count_mA45A82BA7103D81E8FC506A02DA2FF862344006E,
+	CaptureCollection_get_Item_m9E773C623570B88CA00A8E1309C69EE1C60719CC,
+	CaptureCollection_GetEnumerator_m9741991231D034DB55237037C882D93E0F5024CD,
+	CaptureCollection_System_Collections_Generic_IEnumerableU3CSystem_Text_RegularExpressions_CaptureU3E_GetEnumerator_m08F1A7D9047FCC05FA68111524200D0AFC137938,
+	CaptureCollection_GetCapture_mE5861EC54212C16A889D4DBEE0919A890E2CAA3F,
+	CaptureCollection_ForceInitialized_m0C9BE984C4D23DF43EBBAC9E327D6A284F3AD7D7,
+	CaptureCollection_get_SyncRoot_mDD4E8BD300179AA10BFD374A7997E70882164426,
+	CaptureCollection_CopyTo_m9A82FE43F6FBA0E2259FFAAED41A9C3EBB2B7F41,
+	CaptureCollection_CopyTo_m128D17DA5576B1918BD10A44D580FB14469D3B71,
+	CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_IndexOf_m7A57F72D1F5DC1FE58D29C9362C8EF4CBFD9C80E,
+	CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_Insert_m8334CC72890CB455AFCD34C89297BB6AB1F73C1C,
+	CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_RemoveAt_mB209E6B7935ADEDFD9D2DA3C902BD4ADDB8C6F87,
+	CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_get_Item_m0563F46C3E13C59EC1F3EA7C5AD64FF5923DC05A,
+	CaptureCollection_System_Collections_Generic_IListU3CSystem_Text_RegularExpressions_CaptureU3E_set_Item_m44821FC86A3EC496A9930AE5CBE98DF3A9F2808F,
+	CaptureCollection_System_Collections_Generic_ICollectionU3CSystem_Text_RegularExpressions_CaptureU3E_Add_mB897EF6BAB123B6FD4E928F26B7DE9068B378046,
+	CaptureCollection_System_Collections_Generic_ICollectionU3CSystem_Text_RegularExpressions_CaptureU3E_Clear_m6A7F73F4A5D1B3EA157DB217BC286C6604067537,
+	CaptureCollection_System_Collections_Generic_ICollectionU3CSystem_Text_RegularExpressions_CaptureU3E_Contains_mCC00F396D97793D7C3EC276270742A11155A6EFC,
+	CaptureCollection_System_Collections_Generic_ICollectionU3CSystem_Text_RegularExpressions_CaptureU3E_Remove_m1E16A8CE87FA9FD577BD632A161DBD36A74F623A,
+	CaptureCollection_System_Collections_IList_Add_m75A066567BB4D64D53A3D1CC3F1B5F671A517DDB,
+	CaptureCollection_System_Collections_IList_Clear_m33E7674F242F71EFC286F814AA86FB9A5B9FA250,
+	CaptureCollection_System_Collections_IList_Contains_m9D8919229299279D663E1F833D2B30BA9679172B,
+	CaptureCollection_System_Collections_IList_IndexOf_mED9A679F34F788ECFCBC8C438681D72C61D738EB,
+	CaptureCollection_System_Collections_IList_Insert_m31879B97BDF915DC54C86FCDD74F7A370E3BCAAE,
+	CaptureCollection_System_Collections_IList_get_IsFixedSize_mA107549E6FFF9B37E701DAB43517F271CF3BAD30,
+	CaptureCollection_System_Collections_IList_Remove_m1C19C06EC2B10A4BB421A8A1BFCC3E4198ADEA3B,
+	CaptureCollection_System_Collections_IList_RemoveAt_mDC5B90DC4C4B1C260D19255371DE54538E47D46C,
+	CaptureCollection_System_Collections_IList_get_Item_mD89C5103E74C10C72CBD77720453F8AA5CC674DC,
+	CaptureCollection_System_Collections_IList_set_Item_m65A9F754F6BAC13F5516107E4CB0957A95CFE052,
+	CaptureCollection__ctor_m78149EC3020BFBAEC7ECA490F738EB38345F56CB,
+	Enumerator__ctor_m6FC4AEE67490B5F90DDE420D4D822620C29ED9D9,
+	Enumerator_MoveNext_mAB6795B3BA2C1F43C001DC22916750AA3DBB163F,
+	Enumerator_get_Current_mE97EB5EEFDA5790DF167FE959EF33B05FA29123B,
+	Enumerator_System_Collections_IEnumerator_get_Current_m3D9BB5D26D61C3690B7BC2588C54D7DDE43CC2D8,
+	Enumerator_System_Collections_IEnumerator_Reset_mF1CD39F57036557646CE20345323A8C0D23014E4,
+	Enumerator_System_IDisposable_Dispose_m5CD00FB7C5CC181B73F0DE2709122717A518D86F,
 	Group__ctor_mFDE74CF068520CBE797B563B419B8817E60CB58C,
 	Group_get_Success_m4E0238EE4B1E7F927E2AF13E2E5901BCA92BE62F,
 	Group__cctor_mCEC94034CDEE90B4E5B77AE639965DA426C49161,
@@ -950,6 +1026,7 @@ static Il2CppMethodPointer s_methodPointers[735] =
 	Regex__cctor_m689E73750FECC607BB4E1BF503660C16BE0F40E8,
 	Regex_ValidateMatchTimeout_m530D1B5EBC69BEAA11CCB7053A96C4AA9869C591,
 	Regex_InitDefaultMatchTimeout_m8EEBEF239D034DCF29E50E681B318B517202854E,
+	Regex__ctor_mE3A1B095FDFDDA41434B5A2CC70403EB18FE8251,
 	Regex__ctor_mE3996C71B04A4A6845745D01C93B1D27423D0621,
 	Regex_System_Runtime_Serialization_ISerializable_GetObjectData_mD788EE38607BF5D618FDA920048707DF4CA4B99C,
 	Regex__ctor_mA8EBF2F80CC00D741BFD2FFD7DC9DB26FBCEE2A4,
@@ -1207,6 +1284,7 @@ static Il2CppMethodPointer s_methodPointers[735] =
 	RegexRunner_IsMatched_m7E64237D020BFFA74813A8B6455D5F35671A876C,
 	RegexRunner_MatchIndex_m150A8B71C07022C485630C71B2A9FA6FD195F88F,
 	RegexRunner_MatchLength_m19C9B24F4F6CAC56A391A0AC47A4358C61615BF7,
+	RegexRunnerFactory__ctor_mC5045C1DC57E3C151C205E5B274D4AA5F61EE235,
 	NULL,
 	RegexTree__ctor_m89DA1335AAB55B0707774E978E6078CE42DB0DA6,
 	RegexWriter__ctor_m37DF964F59213D287C9D812A3D0945744BF341EE,
@@ -1445,17 +1523,17 @@ extern void RegexPrefix_get_CaseInsensitive_m4DAE2D9E91916BFFAB928F7DCAA20A5ABD4
 extern void RegexPrefix_get_Prefix_m844D02262C0720B0DC488AD1541713AD37BC518E_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[9] = 
 {
-	{ 0x06000107, CachedCodeEntryKey__ctor_mE505E40C97820B3FD140F6212F0B4ECF8745585F_AdjustorThunk },
-	{ 0x06000108, CachedCodeEntryKey_Equals_m59F40708B97179EA5C9019EA6A958D7AB8BC8CA2_AdjustorThunk },
-	{ 0x06000109, CachedCodeEntryKey_Equals_m55F9ED97CB9AF357034A75C2FDB8498FC55D3AF0_AdjustorThunk },
-	{ 0x0600010B, CachedCodeEntryKey_GetHashCode_m253B53C100F840B987A487020F02184019D776DE_AdjustorThunk },
-	{ 0x06000138, LowerCaseMapping__ctor_m06D0A21D5D72E39535F82076EF046F98C62D7D5A_AdjustorThunk },
-	{ 0x0600013C, SingleRange__ctor_m14FD490AFB119E412298554D31FADDCB9465511E_AdjustorThunk },
-	{ 0x060001E0, RegexPrefix__ctor_m05CD44F32CB0B5F8B2C080EAB94886F9743E86A4_AdjustorThunk },
-	{ 0x060001E1, RegexPrefix_get_CaseInsensitive_m4DAE2D9E91916BFFAB928F7DCAA20A5ABD4560E6_AdjustorThunk },
-	{ 0x060001E3, RegexPrefix_get_Prefix_m844D02262C0720B0DC488AD1541713AD37BC518E_AdjustorThunk },
+	{ 0x0600012D, CachedCodeEntryKey__ctor_mE505E40C97820B3FD140F6212F0B4ECF8745585F_AdjustorThunk },
+	{ 0x0600012E, CachedCodeEntryKey_Equals_m59F40708B97179EA5C9019EA6A958D7AB8BC8CA2_AdjustorThunk },
+	{ 0x0600012F, CachedCodeEntryKey_Equals_m55F9ED97CB9AF357034A75C2FDB8498FC55D3AF0_AdjustorThunk },
+	{ 0x06000131, CachedCodeEntryKey_GetHashCode_m253B53C100F840B987A487020F02184019D776DE_AdjustorThunk },
+	{ 0x0600015E, LowerCaseMapping__ctor_m06D0A21D5D72E39535F82076EF046F98C62D7D5A_AdjustorThunk },
+	{ 0x06000162, SingleRange__ctor_m14FD490AFB119E412298554D31FADDCB9465511E_AdjustorThunk },
+	{ 0x06000206, RegexPrefix__ctor_m05CD44F32CB0B5F8B2C080EAB94886F9743E86A4_AdjustorThunk },
+	{ 0x06000207, RegexPrefix_get_CaseInsensitive_m4DAE2D9E91916BFFAB928F7DCAA20A5ABD4560E6_AdjustorThunk },
+	{ 0x06000209, RegexPrefix_get_Prefix_m844D02262C0720B0DC488AD1541713AD37BC518E_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[735] = 
+static const int32_t s_InvokerIndices[774] = 
 {
 	5302,
 	5993,
@@ -1638,6 +1716,43 @@ static const int32_t s_InvokerIndices[735] =
 	3593,
 	4362,
 	4362,
+	4460,
+	4287,
+	4335,
+	3158,
+	4362,
+	4362,
+	3158,
+	4460,
+	4362,
+	1930,
+	1930,
+	2999,
+	1795,
+	3568,
+	3158,
+	1795,
+	3593,
+	4460,
+	2548,
+	2548,
+	2999,
+	4460,
+	2548,
+	2999,
+	1795,
+	4287,
+	3593,
+	3568,
+	3158,
+	1795,
+	4460,
+	3593,
+	4287,
+	4362,
+	4362,
+	4460,
+	4460,
 	701,
 	4287,
 	6409,
@@ -1709,6 +1824,7 @@ static const int32_t s_InvokerIndices[735] =
 	6409,
 	6292,
 	6398,
+	4460,
 	1930,
 	1940,
 	689,
@@ -1966,6 +2082,7 @@ static const int32_t s_InvokerIndices[735] =
 	2522,
 	2976,
 	2976,
+	4460,
 	0,
 	115,
 	1540,
@@ -2195,11 +2312,11 @@ static const int32_t s_InvokerIndices[735] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[5] = 
 {
-	{ 0x02000063, { 2, 20 } },
-	{ 0x02000065, { 22, 25 } },
-	{ 0x02000066, { 47, 5 } },
-	{ 0x02000067, { 52, 3 } },
-	{ 0x06000277, { 0, 2 } },
+	{ 0x02000064, { 2, 20 } },
+	{ 0x02000066, { 22, 25 } },
+	{ 0x02000067, { 47, 5 } },
+	{ 0x02000068, { 52, 3 } },
+	{ 0x0600029E, { 0, 2 } },
 };
 extern const uint32_t g_rgctx_TU26_t633A31097C4ACDEA7F1CF739800D99D7461E2B39;
 extern const uint32_t g_rgctx_T_t047CCAB016DADA45BF2B971B3E7C13F5D9EEAD31;
@@ -2318,7 +2435,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_CodeGenModule;
 const Il2CppCodeGenModule g_System_CodeGenModule = 
 {
 	"System.dll",
-	735,
+	774,
 	s_methodPointers,
 	9,
 	s_adjustorThunks,

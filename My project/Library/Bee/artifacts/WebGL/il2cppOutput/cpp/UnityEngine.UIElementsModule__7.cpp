@@ -401,6 +401,7 @@ IL2CPP_EXTERN_C RuntimeClass* ComputedTransitionPropertyU5BU5D_t25B9E78F5276CDA2
 IL2CPP_EXTERN_C RuntimeClass* ComputedTransitionUtils_tC9191F301DCE1CB02C3FFC174E651E14204F1C7A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DetachedAllocator_tBE2444DA2373005B5DF5E6A96F8CDC329A9D701E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t2E14D8B0F76748B5AE00AF497CE45177082B7DA6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Display_t06A3B0F5169CA3C02A4D5171F27499A23D3581D1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DynamicAtlasPage_t11FF826FFD13D59816B4F99A0C21CF8205A68F6E_il2cpp_TypeInfo_var;
@@ -5296,6 +5297,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeRectParams_t18E2E456D50F027D08BF8B4BCBD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Painter2D__ctor_m7C21DCB67084F23E1E20FD4B29284A291738505F (Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837* __this, MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* ___0_ctx, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UIPainter2D_Create_m60433ADCBAC24EE774E3247089FEF31C60BE31EB (bool ___0_computeBBox, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Painter2D_Reset_mCD9D34C4C5878F3FB9D99687D4B959367DA7120C (Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachedAllocator__ctor_mFE6EB8007C9E0B92B7C2158E124A4C1220637718 (DetachedAllocator_tBE2444DA2373005B5DF5E6A96F8CDC329A9D701E* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Painter2D_set_isPainterActive_m9A5949AFDCA7EDA52F1244D8594EB72688D4F6B5_inline (bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t SafeHandleAccess_op_Implicit_mA88E21580670423498FE587434A27689BC1A0AB7 (SafeHandleAccess_tAD4EC3E34693AFDD4B0003EED6CEF0F2818A1583 ___0_a, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIPainter2D_Reset_m68FD03C327E06FF0A3B93DFF0941D11F519DC315 (intptr_t ___0_handle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Painter2D_Dispose_m14DB142EB641BC66D3872F84431C57A942DF4E43 (Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837* __this, bool ___0_disposing, const RuntimeMethod* method) ;
@@ -14772,6 +14775,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Painter2D__ctor_m7C21DCB67084F23E1E20FD4
 		MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* L_2 = ___0_ctx;
 		__this->___m_Ctx = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Ctx), (void*)L_2);
+		Painter2D_Reset_mCD9D34C4C5878F3FB9D99687D4B959367DA7120C(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Painter2D__ctor_mA7AFEAF9EE8A6B46D44061374AA6B29A9872B01B (Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DetachedAllocator_tBE2444DA2373005B5DF5E6A96F8CDC329A9D701E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		intptr_t L_0;
+		L_0 = UIPainter2D_Create_m60433ADCBAC24EE774E3247089FEF31C60BE31EB((bool)1, NULL);
+		SafeHandleAccess_tAD4EC3E34693AFDD4B0003EED6CEF0F2818A1583 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		SafeHandleAccess__ctor_mEED56B8845BBD2228CE6D4B565DD1D29867AFE03((&L_1), L_0, NULL);
+		__this->___m_Handle = L_1;
+		DetachedAllocator_tBE2444DA2373005B5DF5E6A96F8CDC329A9D701E* L_2 = (DetachedAllocator_tBE2444DA2373005B5DF5E6A96F8CDC329A9D701E*)il2cpp_codegen_object_new(DetachedAllocator_tBE2444DA2373005B5DF5E6A96F8CDC329A9D701E_il2cpp_TypeInfo_var);
+		DetachedAllocator__ctor_mFE6EB8007C9E0B92B7C2158E124A4C1220637718(L_2, NULL);
+		__this->___m_DetachedAllocator = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DetachedAllocator), (void*)L_2);
+		il2cpp_codegen_runtime_class_init_inline(Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837_il2cpp_TypeInfo_var);
+		Painter2D_set_isPainterActive_m9A5949AFDCA7EDA52F1244D8594EB72688D4F6B5_inline((bool)1, NULL);
 		Painter2D_Reset_mCD9D34C4C5878F3FB9D99687D4B959367DA7120C(__this, NULL);
 		return;
 	}
@@ -29855,6 +29885,21 @@ IL_0057:
 	{
 		bool L_25 = V_5;
 		return L_25;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Painter2D_set_isPainterActive_m9A5949AFDCA7EDA52F1244D8594EB72688D4F6B5_inline (bool ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___0_value;
+		il2cpp_codegen_runtime_class_init_inline(Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837_il2cpp_TypeInfo_var);
+		((Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837_StaticFields*)il2cpp_codegen_static_fields_for(Painter2D_t537467DC4761991243516EDAC5DA2949FEC24837_il2cpp_TypeInfo_var))->___U3CisPainterActiveU3Ek__BackingField = L_0;
+		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIRenderDevice_t59628CBA89B4617E832C2B270E1C1A3931D01302* RenderChain_get_device_mE233A5AAED65A1A9F5BD04A4BBB58D10D59B352A_inline (RenderChain_tCCA9360D5721E675E5632E4B2F4AF7CDC453E363* __this, const RuntimeMethod* method) 

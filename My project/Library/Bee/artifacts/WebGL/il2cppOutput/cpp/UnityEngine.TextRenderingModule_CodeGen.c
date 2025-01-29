@@ -53,6 +53,7 @@ extern void TextMesh_set_fontSize_mAB9F7FFC0E4DB759B786F6A9357B18C86015498B (voi
 extern void TextMesh_set_anchor_m3FCB7C4B1FF66CE189B56076C0306AFE984FCD32 (void);
 extern void TextMesh_get_color_m128E5D16AA72D5284C70957253DEAEE4FBEB023E (void);
 extern void TextMesh_set_color_mF08F30C3CD797C16289225B567724B9F07DC641E (void);
+extern void TextMesh__ctor_m987D6C4E18BF8F2DB68D8D0A88FF226263F8BB52 (void);
 extern void TextMesh_get_color_Injected_m3E6F8CA2677A2304BCF58A8FCE4468B29D97F769 (void);
 extern void TextMesh_set_color_Injected_mC7C51FAE003F1B2FB510F50DC1C4AFBFE740B4E4 (void);
 extern void UIVertex__cctor_mF98CC8F21D6CD8703B47E168E976BBE15E0F6C62 (void);
@@ -68,7 +69,7 @@ extern void Font_HasCharacter_mAB838A26F002CB5E4B4DB297F7D6836A28625B18 (void);
 extern void Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1 (void);
 extern void FontTextureRebuildCallback__ctor_m1AF27FC83F3136E493F47015F99CE7A4E6BCA0BC (void);
 extern void FontTextureRebuildCallback_Invoke_m8B52C3F4823ADBB80062209E6BA2B33202AE958D (void);
-static Il2CppMethodPointer s_methodPointers[56] = 
+static Il2CppMethodPointer s_methodPointers[57] = 
 {
 	TextGenerationSettings_CompareColors_m29E454405FB3871CA77CC7F94DAB1B4320BD5E53,
 	TextGenerationSettings_CompareVector2_mF3EE374922B2ECE13BA7B01B26199494A30C2E2E,
@@ -111,6 +112,7 @@ static Il2CppMethodPointer s_methodPointers[56] =
 	TextMesh_set_anchor_m3FCB7C4B1FF66CE189B56076C0306AFE984FCD32,
 	TextMesh_get_color_m128E5D16AA72D5284C70957253DEAEE4FBEB023E,
 	TextMesh_set_color_mF08F30C3CD797C16289225B567724B9F07DC641E,
+	TextMesh__ctor_m987D6C4E18BF8F2DB68D8D0A88FF226263F8BB52,
 	TextMesh_get_color_Injected_m3E6F8CA2677A2304BCF58A8FCE4468B29D97F769,
 	TextMesh_set_color_Injected_mC7C51FAE003F1B2FB510F50DC1C4AFBFE740B4E4,
 	UIVertex__cctor_mF98CC8F21D6CD8703B47E168E976BBE15E0F6C62,
@@ -136,7 +138,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] =
 	{ 0x06000002, TextGenerationSettings_CompareVector2_mF3EE374922B2ECE13BA7B01B26199494A30C2E2E_AdjustorThunk },
 	{ 0x06000003, TextGenerationSettings_Equals_m04DE9655555622E3A4EECC2EAB3BC36B38E20840_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[56] = 
+static const int32_t s_InvokerIndices[57] = 
 {
 	1131,
 	1244,
@@ -179,6 +181,7 @@ static const int32_t s_InvokerIndices[56] =
 	3568,
 	4289,
 	3519,
+	4460,
 	3505,
 	3505,
 	6409,
@@ -199,7 +202,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_Code
 const Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule = 
 {
 	"UnityEngine.TextRenderingModule.dll",
-	56,
+	57,
 	s_methodPointers,
 	3,
 	s_adjustorThunks,
