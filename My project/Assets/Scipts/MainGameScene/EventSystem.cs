@@ -29,6 +29,8 @@ public class EventSystem : MonoBehaviour
 
     public TextMeshProUGUI mainTMP;
 
+    public AudioSource laughter;
+
     private void Awake(){
         singletonInstance = this;
     }
@@ -46,7 +48,7 @@ public class EventSystem : MonoBehaviour
 
          StartCoroutine(delayedText(mainTMP, startText));
 
-
+         laughter = GameObject.Find("Laughter").GetComponent<AudioSource>();
     }
 
     public void missionStart(MissonNames ms){
@@ -100,6 +102,7 @@ public class EventSystem : MonoBehaviour
         }
         else{
             Debug.Log("Lose");
+            laughter.Play();
             //this should make the player fall through the floor
             mainPlayerObject.GetComponent<Rigidbody>().useGravity = true;
             mainPlayerObject.GetComponent<BoxCollider>().isTrigger = true;

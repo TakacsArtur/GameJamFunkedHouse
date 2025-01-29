@@ -5939,13 +5939,13 @@ struct U3CRangeIteratorU3Ed__115_tDB1D987AE1C673965E7ABCDA1D189AD36358F14D  : pu
 struct U3CU3Ec_tA2F2CC1AF6387E3BB956D755EDF342B6564CF21C  : public RuntimeObject
 {
 };
-struct U3CdelayedEndU3Ed__20_tDD463D6A370406BB1E1482E8F99245E03150CAE1  : public RuntimeObject
+struct U3CdelayedEndU3Ed__21_t004FA12EDA1D4CB5FF37C6C4C346220A8E720640  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	EventSystem_tECB5E8D383B312235FF307A6ACA688B0AD633F18* ___U3CU3E4__this;
 };
-struct U3CdelayedStartU3Ed__19_tF7E472C6A05038B951CB4EE5855F2169A9ABB352  : public RuntimeObject
+struct U3CdelayedStartU3Ed__20_t340CC5CB8E0CD6F0780651D60497A0A5A7877AEB  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -19444,7 +19444,7 @@ struct EventData_tEB579D26516CF33445B84ADE75307FA8EAF6CA4D
 	int32_t ___U3CSizeU3Ek__BackingField;
 	int32_t ___U3CReservedU3Ek__BackingField;
 };
-struct U3CdelayedTextU3Ed__18_tA24448E2AF02A0B6F561E797B4F191FCD0E60A5C  : public RuntimeObject
+struct U3CdelayedTextU3Ed__19_t6DFC3592AA254A22F98501B536A36DA86AF2919D  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -30111,6 +30111,7 @@ struct EventSystem_tECB5E8D383B312235FF307A6ACA688B0AD633F18  : public MonoBehav
 	String_t* ___canvasName;
 	String_t* ___playerObjectName;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___mainTMP;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___laughter;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___somethingOld;
 };
 struct EventTrigger_tAEBFB7A16CA99343EA87722F78884BF8646BAE1B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -44231,11 +44232,11 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize3682 = { sizeof(Light_Moveme
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3683;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize3683 = { sizeof(int32_t)+ sizeof(RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3684;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3684 = { sizeof(U3CdelayedEndU3Ed__20_tDD463D6A370406BB1E1482E8F99245E03150CAE1), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3684 = { sizeof(U3CdelayedEndU3Ed__21_t004FA12EDA1D4CB5FF37C6C4C346220A8E720640), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3685;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3685 = { sizeof(U3CdelayedStartU3Ed__19_tF7E472C6A05038B951CB4EE5855F2169A9ABB352), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3685 = { sizeof(U3CdelayedStartU3Ed__20_t340CC5CB8E0CD6F0780651D60497A0A5A7877AEB), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3686;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3686 = { sizeof(U3CdelayedTextU3Ed__18_tA24448E2AF02A0B6F561E797B4F191FCD0E60A5C), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3686 = { sizeof(U3CdelayedTextU3Ed__19_t6DFC3592AA254A22F98501B536A36DA86AF2919D), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3687;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize3687 = { sizeof(EventSystem_tECB5E8D383B312235FF307A6ACA688B0AD633F18), -1, sizeof(EventSystem_tECB5E8D383B312235FF307A6ACA688B0AD633F18_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3688;

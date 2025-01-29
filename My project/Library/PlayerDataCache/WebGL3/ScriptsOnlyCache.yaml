@@ -1033,7 +1033,7 @@ ScriptsOnlyBuild:
     className: TMP_FrameRateCounter
   - hash:
       serializedVersion: 2
-      Hash: 86d434159e8f6c42ce82df7892f92cb2
+      Hash: bfb297107072d17a629616553f0e6c93
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: EventSystem
@@ -1300,4 +1300,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/IntroScreen.unity
   - Assets/Scenes/MainGamePlayScene.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: /home/ddk/Downloads/anyad/GameJamFunkedHouse
+  playerPath: /home/ddk/Downloads/Build/Github
