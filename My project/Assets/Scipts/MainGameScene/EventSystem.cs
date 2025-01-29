@@ -52,7 +52,7 @@ public class EventSystem : MonoBehaviour
     public void missionStart(MissonNames ms){
        switch(ms){
        case MissonNames.SomethingOld:
-            missionSuccessItemCnt = 4;
+            missionSuccessItemCnt = 3;
             break;
         }
     }
@@ -96,7 +96,7 @@ public class EventSystem : MonoBehaviour
     private void End(bool positive){
         if(positive){
             Debug.Log("Win");
-            delayedStart();
+            StartCoroutine(delayedStart());
         }
         else{
             Debug.Log("Lose");
@@ -110,15 +110,16 @@ public class EventSystem : MonoBehaviour
 
     IEnumerator delayedText(TextMeshProUGUI tmp, List<String> text){
         foreach (var t in text){
-            yield return new WaitForSeconds(7);
+            yield return new WaitForSeconds(2);
             tmp.text = t;
             Debug.Log("Wrote text to screen");        
         }
+        tmp.text = "";
         
     }
 
     IEnumerator delayedStart(){
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(1);
         LoadScene("EndScreen");
 
     } 

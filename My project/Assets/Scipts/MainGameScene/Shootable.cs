@@ -7,6 +7,8 @@ public class Shootable : MonoBehaviour
      private bool alreadyShot = false;
      //walls and shit can have this toogled off
      public bool validHit = true;
+     public bool playSound = false;
+     public float waitFor = 1f;
      
      private EventSystem.MissonNames currentMission;
      void Start(){
@@ -23,6 +25,10 @@ public class Shootable : MonoBehaviour
             EventSystem.singletonInstance.ValidHit(correctShot());
             alreadyShot = true;
         }
+        if (playSound)
+        {
+            StartCoroutine(delayShot());
+        }
     }
      
      bool correctShot(){
@@ -34,5 +40,11 @@ public class Shootable : MonoBehaviour
                 return ninetiesOne;
             default: return false;
         }
+    }
+
+    IEnumerator delayShot()
+    {
+        yield return new WaitForSeconds(waitFor);
+        GetComponent<AudioSource>().Play();
     }
 }

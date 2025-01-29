@@ -91,9 +91,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2220}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2606}
     - Class: 114
       Script: {instanceID: 6094}
     - Class: 115
@@ -138,9 +138,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2190}
+      Script: {instanceID: 2188}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2606}
     - Class: 114
       Script: {instanceID: 3984}
     - Class: 114
@@ -188,6 +188,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -195,11 +197,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2814}
+      Script: {instanceID: 2812}
     - Class: 114
       Script: {instanceID: 3780}
     - Class: 114
@@ -235,19 +237,13 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: ContentSizeFitter
-  - hash:
-      serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 5d7321f085424dcd5e3d0e813251f82d
+      Hash: 6ac77af0b8782a314a19f411b7a6c40b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerTwoMovement
@@ -529,6 +525,12 @@ ScriptsOnlyBuild:
     className: UnityOnTransformParentChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
       Hash: c6369b4cc3be620d6c9300e920bc3d52
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -577,7 +579,7 @@ ScriptsOnlyBuild:
     className: UnityOnControllerColliderHitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9a186db5032ac854f4bb710b479113c7
+      Hash: 960935b102b3064f4b924de16426e340
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshPro
@@ -769,7 +771,7 @@ ScriptsOnlyBuild:
     className: TMP_TextInfoDebugTool
   - hash:
       serializedVersion: 2
-      Hash: abeadb376fca32bc1a03e39585d98ea5
+      Hash: 702170297ac52c6dbe0ce7090b3775a4
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Shootable
@@ -1300,4 +1302,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/IntroScreen.unity
   - Assets/Scenes/MainGamePlayScene.unity
   - Assets/Scenes/EndScreen.unity
-  playerPath: /home/ddk/Downloads/anyad/GameJamFunkedHouse
+  playerPath: D:/gamjam/build/Build

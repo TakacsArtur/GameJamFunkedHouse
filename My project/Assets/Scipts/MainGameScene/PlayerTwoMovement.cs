@@ -10,9 +10,11 @@ public class PlayerTwoMovement : MonoBehaviour
     public string playerHandName = "Hand_placeholder";
     public int moveHorizontalSpeed = 5;
     public int turnSpeed = 5;
+    public AudioSource walkSound;
     void Start()
     {
         PlayerHand = GameObject.Find(playerHandName);
+        walkSound = GameObject.Find("WalkSound").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -26,6 +28,13 @@ public class PlayerTwoMovement : MonoBehaviour
 
         //tank control
         rb.MoveRotation(rb.rotation * Quaternion.Euler(0, Input.GetAxis("Horizontal") * turnSpeed * Time.deltaTime, 0));
-    
+        if(Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0)
+        {
+            walkSound.Play();
+        }
+        else
+        {
+            walkSound.Stop();
+        }
     }
 }
