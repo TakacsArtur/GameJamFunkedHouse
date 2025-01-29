@@ -1709,6 +1709,27 @@ MonoBehaviour:
   validHit: 1
   playSound: 0
   waitFor: 1
+--- !u!65 &406125565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406125561}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8971434, y: 2.3367195, z: 8.054563}
+  m_Center: {x: 0.04060771, y: 0.13953537, z: -0.079847135}
 --- !u!1 &433366070 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5148817236446094103, guid: ae5fde1d0239af24a8c7ae77dd769696, type: 3}
@@ -4388,7 +4409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1110044505
 Light:
   m_ObjectHideFlags: 0
@@ -5208,6 +5229,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 346c382f6e8e55c13b4438f51d6c5033, type: 3}
       insertIndex: -1
       addedObject: {fileID: 406125563}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 346c382f6e8e55c13b4438f51d6c5033, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 406125565}
     - targetCorrespondingSourceObject: {fileID: 6649302250670634735, guid: 346c382f6e8e55c13b4438f51d6c5033, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1778593293}
@@ -15848,7 +15872,7 @@ MonoBehaviour:
   ninetiesOne: 0
   validHit: 1
   playSound: 1
-  waitFor: 0.5
+  waitFor: 0.2
 --- !u!65 &1797495382
 BoxCollider:
   m_ObjectHideFlags: 0
